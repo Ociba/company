@@ -1,4 +1,4 @@
-<div class="rs-counter-style8 pt-100 bg14 md-gray-bg-color">
+<div class="rs-counter-style8 pt-100 bg14 col-gray-bg-color">
     <div class="container">
         <div class="row">
             <div class="col-lg-3 col-md-6">

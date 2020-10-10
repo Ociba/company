@@ -7,7 +7,7 @@
                    <div class="col-lg-3 col-md-12">
                        <div class="logo-area">
                            {{--<a href="#"><img src="{{asset('images/logo-white.png')}}" alt="logo"></a>--}}
-                           <span style="color:white; font-size:30px;">Goproug</span>
+                           <span style="color:white; font-weight:bold;">JAJA</span>
                        </div>
                    </div>
                    <div class="col-lg-7 col-md-12">
@@ -15,7 +15,7 @@
                            <!-- <div id="logo-sticky" class="text-center">
                                <a href="index.html"><img src="{{asset('images/logo.png" alt="logo"></a>
                            </div> -->
-                           {{--<a class="rs-menu-toggle"><i class="fa fa-bars"></i>Menu</a>--}}
+                           <a class="rs-menu-toggle"><i class="fa fa-bars"></i>Menu</a>
                            <nav class="rs-menu">
                                <ul class="nav-menu">
                                {{--
@@ -126,7 +126,7 @@
                                <a class="rs-search" data-target=".search-modal" data-toggle="modal" href="#"><i class="fa fa-search"></i></a>
                            </div>
                              <div class="apply-box">
-                                <a href="#">Apply Now</a>
+                                <a  href="/apply-now">Apply Now</a>
                             </div>
                          </div>
                      </div>

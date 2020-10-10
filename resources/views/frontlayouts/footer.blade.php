@@ -27,11 +27,11 @@
                         <div class="contact-inner">
                             <i class="fa fa-signal"></i>
                             <h4 class="contact-title">Social Media</h4>
-                            <div class="footer-share">
+                            <div class="footer-share mt-0">
                                 <ul>
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>   
+                                    <li><a href="#"><i class="fa fa-facebook pt-2"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-google-plus pt-2"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter pt-2"></i></a></li>   
                                 </ul>
                             </div> 
                         </div>
@@ -114,7 +114,7 @@
         <div class="footer-bottom">
             <div class="container">
                 <div class="copyright">
-                    <p>© 2018 <a href="#">RS Theme</a>. All Rights Reserved.</p>
+                    <p>© {{ date('Y') }} <a href="#">JAJA</a>. All Rights Reserved.</p>
                 </div>
             </div>
         </div>

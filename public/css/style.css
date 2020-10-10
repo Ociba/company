@@ -601,7 +601,7 @@ ul {
   background-position: center top;
 }
 .bg7 {
-  background-image: url(images/bg/bg3.jpg);
+  background-image: url(../images/bg/bg3.jpg);
   background-size: cover;
   background-position: center;
   background-position: center top;
@@ -647,7 +647,7 @@ ul {
   background-image: url(../images/bg/cta-bg.jpg);
   background-size: cover;
   background-position: center top;
-  padding-bottom: 500px !important;
+  padding-bottom: 100px !important;
 }
 .bg15 {
   background-image: url(../images/bg/about-home8-bg.jpg);
@@ -1462,7 +1462,7 @@ ul {
   color: blue;
 }
 #rs-header.rs-transfarent-header-style .rs-right-btn-inner .apply-box {
-  margin-left: 35px;
+  margin-left: 5px;
 }
 #rs-header.rs-transfarent-header-style .rs-right-btn-inner .apply-box a {
   padding: 0 28px;
@@ -2208,7 +2208,7 @@ ul {
   font-weight: 600;
 }
 .rs-banner-section3 .countdown-part .title {
-  font-size: 60px;
+  font-size: 40px;
   line-height: 70px;
   font-weight: 600;
   color: #ffffff;
@@ -7190,6 +7190,7 @@ ul {
   border-radius: 0px;
   padding: 14px 23px;
   text-transform: uppercase;
+  text-align: center;
   letter-spacing: 1px;
   margin-top: 14px;
   transition: all 0.3s ease 0s;
@@ -8032,7 +8033,7 @@ ul {
   -ms-transition: 0.4s;
 }
 .contact-page-section .contact-comment-section form .form-group input.btn-send:hover {
-  background: #212121;
+  background: #06159e;
 }
 /* ------------------------------------
     33. Rs Gallery

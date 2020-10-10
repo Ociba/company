@@ -1,1 +1,1 @@
-<title>Edulearn | Responsive Education HTML5 Template</title>
+<title>JAJA | Uganda</title>
