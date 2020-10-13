@@ -64,6 +64,9 @@
         <!-- Partner Start -->
         @include('frontlayouts.partner')
         <!-- Partner End -->
+        <!--Comments-->
+        @include('frontlayouts.comments')
+        <!--End of comment-->
        
         <!-- Footer Start -->
         @include('frontlayouts.footer')

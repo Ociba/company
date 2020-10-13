@@ -7,7 +7,7 @@
                    <div class="col-lg-3 col-md-12">
                        <div class="logo-area">
                            {{--<a href="#"><img src="{{asset('images/logo-white.png')}}" alt="logo"></a>--}}
-                           <span style="color:white; font-weight:bold;">JAJA</span>
+                           <span style="color:white; font-weight:bold;">JAAJA</span>
                        </div>
                    </div>
                    <div class="col-lg-7 col-md-12">

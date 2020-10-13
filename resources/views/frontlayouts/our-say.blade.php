@@ -13,7 +13,7 @@
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod tempor incididunt ut laboreet dolore magna aliqua. Ut enim ad minim veniam, quised nostrud exercitation. Duis aute irure dolor in reprehen derit in voluptate velit esse cillum dolore eu fugiat nulla pariatur
                         </p>
                         <div class="btn-part">
-                            <a class="readon2" href="#">Join with us</a>
+                            <a class="readon2" href="/apply-now">Join with us</a>
                         </div> 
                 </div>
             </div>

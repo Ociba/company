@@ -65,6 +65,11 @@
             <i class="fa fa-th"></i> <span>Events</span>
           </a>
         </li>
+        <li @if(\Request::route()->getName() == "Approve Comment")class="active" @endif>
+          <a href="/approve-comment">
+            <i class="fa fa-th"></i> <span>Comments</span>
+          </a>
+        </li>
       </ul>
     </section>
     <!-- /.sidebar -->

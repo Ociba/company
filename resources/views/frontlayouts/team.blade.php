@@ -3,7 +3,7 @@
               <div class="container">
                   <div class="sec-title2 mb-50 text-left">
                   	   <span class="title">Our Products</span>
-                         <h2 class="title"> Meet Our Expert Teacher</h2> 
+                         <h2 class="title"> Check out Our Products</h2> 
                   </div>
           				<div class="rs-carousel owl-carousel" data-loop="true" data-items="3" data-margin="30" data-autoplay="false" data-autoplay-timeout="5000" data-smart-speed="1200" data-dots="true" data-nav="true" data-nav-speed="false" data-mobile-device="1" data-mobile-device-nav="true" data-mobile-device-dots="true" data-ipad-device="2" data-ipad-device-nav="true" data-ipad-device-dots="true" data-md-device="4" data-md-device-nav="true" data-md-device-dots="true">
                     <div class="item">
@@ -18,8 +18,8 @@
                                 </div>
                             </div>
                             <div class="team-content">
-                                <h3 class="team-name"><a href="#">ABD Rashid Khan</a></h3>
-                                <span class="sub-title">Vice Chancellor</span>
+                                <h3 class="team-name">Monitoring System</h3>
+                                <span class="sub-title"><a href="#">www.monitoring.com</a></span>
                             </div>
                         </div>
                     </div>  
@@ -35,8 +35,8 @@
                                 </div>
                             </div>
                             <div class="team-content">
-                                <h3 class="team-name"><a href="#">Mahabub Alam</a></h3>
-                                <span class="sub-title">Professor</span>
+                            <h3 class="team-name">Bulk SMS System</h3>
+                                <span class="sub-title"><a href="#">www.bulksms.com</a></span>
                             </div>
                         </div>
                     </div>  
@@ -52,8 +52,8 @@
                                 </div>
                             </div>
                             <div class="team-content">
-                                <h3 class="team-name"><a href="#">John Doe</a></h3>
-                                <span class="sub-title">Web Developer</span>
+                                <h3 class="team-name">School System</h3>
+                                <span class="sub-title"><a href="#">www.school.com</a></span>
                             </div>
                         </div>
                     </div>  
@@ -69,8 +69,8 @@
                                 </div>
                             </div>
                             <div class="team-content">
-                                <h3 class="team-name"><a href="#">Aden Hezard</a></h3>
-                                <span class="sub-title">Ast. Professior</span>
+                                <h3 class="team-name">Mobile App</h3>
+                                <span class="sub-title"><a href="#">www.monitoring/mobapp.com</a></span>
                             </div>
                         </div>
                     </div>  

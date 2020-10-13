@@ -12,10 +12,10 @@
                                     </div>
                                     <div class="news-content">
                                         <div class="news-date">
-                                            <span>June 21, 2020</span>
+                                            <span>October 10, 2020</span>
                                         </div>
                                         <h4 class="news-title">
-                                            <a href="#">While the lovely valley team work</a>
+                                            <a href="#">Download our monitoring App on Google play store</a>
                                         </h4>
                                         <div class="news-btn">
                                             <a class="readon2 transparent" href="#"> Read More</a>
@@ -27,10 +27,10 @@
                                     </div>
                                     <div class="news-content">
                                         <div class="news-date">
-                                            <span>June 21, 2020</span>
+                                            <span>October 13, 2020</span>
                                         </div>
                                         <h4 class="news-title">
-                                            <a href="#">I should be incapable of drawing</a>
+                                            <a href="#">PHP-Laravel Framework version 8.0 documentation</a>
                                         </h4>
                                         <div class="news-btn">
                                             <a class="readon2 transparent" href="#"> Read More</a>
@@ -43,10 +43,10 @@
                                     </div>
                                     <div class="news-content">
                                         <div class="news-date">
-                                            <span>June 21, 2020</span>
+                                            <span>October 13, 2020</span>
                                         </div>
                                         <h4 class="news-title">
-                                            <a href="#">I must explain to you how all this idea</a>
+                                            <a href="#">Send Messages through our Bulksms Platform now</a>
                                         </h4>
                                         <div class="news-btn">
                                             <a class="readon2 transparent" href="#"> Read More</a>
@@ -63,8 +63,9 @@
                         <div class="event-item-new mb-50">
                             <div class="event-date">
                                 <div class="vertical-align">
-                                    <span class="day">05</span>
-                                    <span class="month">Sep</span>
+                                    <span class="day">17</span>
+                                    <span class="month">Oct</span>
+                                    <span class="month text-danger">{{date('Y')}}</span>
                                 </div>
                             </div>
                             <div class="event-des">
@@ -78,8 +79,9 @@
                         <div class="event-item-new mb-50">
                             <div class="event-date">
                                 <div class="vertical-align">
-                                    <span class="day">10</span>
-                                    <span class="month">Aug</span>
+                                    <span class="day">20</span>
+                                    <span class="month">Oct</span>
+                                    <span class="month text-danger">{{date('Y')}}</span>
                                 </div>
                             </div>
                             <div class="event-des">
@@ -93,8 +95,9 @@
                         <div class="event-item-new mb-10">
                             <div class="event-date">
                                 <div class="vertical-align">
-                                    <span class="day">05</span>
-                                    <span class="month">Aug</span>
+                                    <span class="day">30</span>
+                                    <span class="month">Oct</span>
+                                    <span class="month text-danger">{{date('Y')}}</span>
                                 </div>
                             </div>
                             <div class="event-des">

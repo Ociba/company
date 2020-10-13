@@ -8,7 +8,7 @@
                         </div>
                     <div class="text-part">
                         <h2 class="counter-number plus text-white">60</h2>                  
-                        <h4 class="counter-desc text-white">TEACHERS</h4>
+                        <h4 class="counter-desc text-white">PROJECTS</h4>
                     </div>
                 </div>
             </div>    
@@ -19,7 +19,7 @@
                         </div>
                     <div class="text-part">
                         <h2 class="counter-number plus text-white">40</h2>                  
-                        <h4 class="counter-desc text-white">COURSES</h4>
+                        <h4 class="counter-desc text-white">TEAM</h4>
                     </div>
                 </div>
             </div>    
@@ -30,7 +30,7 @@
                         </div>
                     <div class="text-part">
                         <h2 class="counter-number plus text-white">900</h2>                  
-                        <h4 class="counter-desc text-white">STUDENTS</h4>
+                        <h4 class="counter-desc text-white">COMMENTS</h4>
                     </div>
                 </div>
             </div>    
@@ -41,7 +41,7 @@
                         </div>
                     <div class="text-part">
                         <h2 class="counter-number plus text-white">3675</h2>                  
-                        <h4 class="counter-desc text-white">PUBLICATIONS</h4>
+                        <h4 class="counter-desc text-white">SERVICES OFFERED</h4>
                     </div>
                 </div>
             </div>

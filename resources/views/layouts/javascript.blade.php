@@ -21,8 +21,6 @@
 <script src="{{asset('admin/dist/js/pages/dashboard2.js')}}"></script>
 <!-- AdminLTE for demo purposes -->
 <script src="{{asset('admin/dist/js/demo.js')}}"></script>
-<script src="{{asset('admin/bower_components/datatables.net/js/jquery.dataTables.min.js')}}"></script>
-<script src="{{asset('admin/bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js')}}"></script>
 <script src="{{asset('admin/dist/js/jquery.fileupload-process.js')}}"></script>
     <script src="{{asset('admin/dist/js/jquery.fileupload-image.js')}}"></script>
     <script src="{{asset('admin/dist/js/jquery.fileupload-audio.js')}}"></script>

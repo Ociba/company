@@ -36,7 +36,7 @@
 								   <div class="col-lg-12">
 								        <textarea cols="" rows="4" id="message" name="message" placeholder="Write text here" class="textarea form-control"></textarea>
               	                 </div>
-              	                 <div class="col-lg-12">
+              	                 <div class="col-lg-12 mt-2">
               	                    <input type="submit" value="Send" class="wpcf7-form-control wpcf7-submit">
               	                 </div>
               	             </div>

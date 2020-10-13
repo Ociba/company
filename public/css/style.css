@@ -558,7 +558,7 @@ ul {
   color: #ffffff;
 }
 .readon2:hover {
-  background: #e41f05;
+  background: blue;
   color: #ffffff;
 }
 /********************************/
@@ -2643,7 +2643,7 @@ ul {
 }
 .rs-about-style7 .content-part .play-btn .pulse-btn {
   position: absolute;
-  background: #e41f05;
+  background: blue;
   width: 80px;
   height: 80px;
   line-height: 80px;
@@ -2714,7 +2714,7 @@ ul {
 }
 .rs-about-style8 .content-part .play-btn .pulse-btn {
   position: absolute;
-  background: #e41f05;
+  background: blue;
   width: 80px;
   height: 80px;
   line-height: 80px;
@@ -2739,7 +2739,7 @@ ul {
   width: 80px;
   height: 80px;
   background: transparent;
-  border: 2px solid #e41f05;
+  border: 2px solid blue;
   border-radius: 50%;
   transition: all 200ms;
   animation: pulse-border 1500ms ease-out infinite;
@@ -2757,7 +2757,7 @@ ul {
   background: transparent;
   border-radius: 50%;
   transition: all 200ms;
-  border: 2px solid #e41f05;
+  border: 2px solid blue;
 }
 .rs-about-style8 .content-part .title {
   font-size: 30px;

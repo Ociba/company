@@ -10,7 +10,7 @@
                             <div class="Services-desc">
                               <i class="flaticon-book-1 mb-15"></i>
                                <h4 class="services-title">
-                                  <a href="#">Trending Courses</a>
+                                  <a href="#">Our Office</a>
                                </h4> 
                             </div>
                         </div>
@@ -25,7 +25,7 @@
                              <div class="Services-desc">
                                <i class="flaticon-book mb-15"></i>
                                 <h4 class="services-title">
-                                   <a href="#">Certified Teachers</a>
+                                   <a href="#">Our Engineers</a>
                                 </h4> 
                              </div>
                          </div>
@@ -40,7 +40,7 @@
                              <div class="Services-desc">
                                <i class="flaticon-book mb-15"></i>
                                 <h4 class="services-title">
-                                   <a href="#">Books & Liberary</a>
+                                   <a href="#">Support Employees</a>
                                 </h4> 
                              </div>
                          </div>
@@ -55,7 +55,7 @@
                               <div class="Services-desc">
                                 <i class="flaticon-tool-2"></i>
                                  <h4 class="services-title mb-15">
-                                    <a href="#">Certification</a>
+                                    <a href="#">Domestic Workers</a>
                                  </h4> 
                               </div>
                           </div>

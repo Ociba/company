@@ -9,18 +9,21 @@
                 <div class="col-lg-7 pl-60 md-pt-40 md-pl-15">
                    <div class="sec-title2">
                        <span class="sub-title">About Us</span>
-                       <h2 class="title pb-10">Welcome to Edulearn</h2>
+                       <h2 class="title pb-10">Welcome to JAAJA IT Solutions</h2>
+                       <p class="text-justify">
+                           <strong>JAAJA</strong> is a unique dynamic and goal oriented IT organization to create applications systems and innovations to help individuals build the life they desire globally through Technnology.Our strength is empowered and based on customers Requirements and expectations to build up applications accordingly.
+                       </p>
                        <p>
-                           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eius to mod tempor incididunt ut labore et dolore magna aliqua. Ut enims ad minim veniam. Aenean massa. Cum sociis natoque penatibus et magnis dis partu rient to montes.Aene an massa. Cum sociis natoque penatibus. Ut enims ad minim veniam. Aenean massa. Aenean massa cum sociis natoque penatibus sed do eiusmod tempor.
+                         We are offering these services:
                        </p>
                    </div>
                    <ul class="pb-40">
-                       <li>Trending Courses</li>
-                       <li>Certified Teaches</li>
-                       <li>Books & Libraries</li>
-                       <li>Online Course</li>
-                       <li>Students Portal</li>
-                       <li>Lab Facilities</li>
+                       <li>Websites Development</li>
+                       <li>Web Application Development</li>
+                       <li>Mobile Applications Development</li>
+                       <li>Software Installation</li>
+                       <li>Graphics</li>
+                       <li>Other IT Services</li>
                    </ul>
                    <div class="author-section">
                     <div class="row">
@@ -30,8 +33,8 @@
                                   <img src="{{asset('images/team/3.jpg')}}" alt="">
                               </div>
                               <div class="author-content">
-                                  <h4 class="mb-0">Rashid Mahabub</h4>
-                                  <p>Chairman and founder</p>
+                                  <h4 class="mb-0">MR. Matama Johnson</h4>
+                                  <p>Chairman and Co-Founder</p>
                               </div>
                             </div>
                         </div>

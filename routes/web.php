@@ -32,3 +32,8 @@ Route::get('/display-events-in-dashboard','EventsController@getEventsOnDashbord'
 Route::get('/get-events-form','EventsController@getEventsForm')->name('Events Form');
 Route::get('/create-event','EventsController@validateEvent');
 Route::get('/delete-event/{id}','EventsController@deleteEvents');
+Route::get('/create-comment','CommentController@validateComment');
+Route::get('/approve-comment','CommentController@approveComment')->name('Approve Comment');
+Route::get('/reply/{id}','CommentController@replyForm')->name('Reply Comment');
+Route::get('/reply-comment/{id}','CommentController@replyComment');
+Route::get('/approve/{id}','CommentController@deleteComment');
