@@ -19,8 +19,8 @@
                    </div>
                    <ul class="pb-40">
                        <li>Websites Development</li>
-                       <li>Web Application Development</li>
-                       <li>Mobile Applications Development</li>
+                       <li>Web App Development</li>
+                       <li>Mobile App Development</li>
                        <li>Software Installation</li>
                        <li>Graphics</li>
                        <li>Other IT Services</li>

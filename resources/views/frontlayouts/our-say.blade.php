@@ -6,14 +6,15 @@
             </div>
             <div class="col-lg-6">
                 <div class="rs-calltoaction">
-                        <span class="sub-title">We Are Best</span>
-                        <h2 class="title pb-10">5500+ Students Trusted Our Best<br> 
-                        Online Courses</h2>
-                        <p class="desc pb-30">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod tempor incididunt ut laboreet dolore magna aliqua. Ut enim ad minim veniam, quised nostrud exercitation. Duis aute irure dolor in reprehen derit in voluptate velit esse cillum dolore eu fugiat nulla pariatur
+                        {{--<span class="sub-title">We Are Best</span>--}}
+                        <h2 class="title pb-10">We are ready to respond to<br> 
+                        Online Questions</h2>
+                        <p class="desc pb-30 text-justify">
+                        Our online team is available to chat with you through our talk platform 24/7 to answer your enquiries and questions. what you only do is to send your enquiries or question and you are responded instantly.
+                        You are our vital person and you matter a lot to us so letus chat now...
                         </p>
                         <div class="btn-part">
-                            <a class="readon2" href="/apply-now">Join with us</a>
+                            <a class="readon2" href="/apply-now">Join with us Now</a>
                         </div> 
                 </div>
             </div>

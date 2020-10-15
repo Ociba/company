@@ -41,7 +41,7 @@
                         </div>
                     <div class="text-part">
                         <h2 class="counter-number plus text-white">3675</h2>                  
-                        <h4 class="counter-desc text-white">SERVICES OFFERED</h4>
+                        <h4 class="counter-desc text-white">SERVICES</h4>
                     </div>
                 </div>
             </div>

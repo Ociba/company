@@ -1095,7 +1095,7 @@ ul {
   font-size: 14px;
 }
 .rs-toolbar .rs-toolbar-left .welcome-message i {
-  color: blue;
+  color: #ffffff;
   margin-right: 8px;
 }
 .rs-toolbar .rs-toolbar-left .welcome-message span {
@@ -2204,7 +2204,7 @@ ul {
   display: block;
   font-size: 18px;
   line-height: 34px;
-  color: blue;
+  color: whitesmoke;
   font-weight: 600;
 }
 .rs-banner-section3 .countdown-part .title {
@@ -2239,10 +2239,10 @@ ul {
   font-weight: 700;
   font-size: 40px !important;
   margin: 0 0 9px 0;
-  color: blue;
+  color: #ffffff;
 }
 .rs-banner-section3 .countdown-part .counter-wrap .timecounter-inner .time_circles div h4 {
-  color: #ffffff;
+  color: #443535;
   margin: 0;
   padding: 0;
   text-align: center;
@@ -2273,7 +2273,7 @@ ul {
   width: 100%;
   clip-path: polygon(-115.5% 0, 113% 0, 76% 100%);
   left: 0;
-  background-color: blue;
+  background-color: rgb(177, 177, 196);
   top: 0;
   content: "";
 }

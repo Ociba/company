@@ -8,7 +8,7 @@
                             <div class="news-list-block">
                                 <div class="news-list-item mb-40">
                                     <div class="news-img">
-                                        <img src="{{asset('images/blog/latest/1.jpg')}}" alt="">
+                                        <img src="{{asset('images/apps/P4.JPG')}}" alt="">
                                     </div>
                                     <div class="news-content">
                                         <div class="news-date">
@@ -17,13 +17,15 @@
                                         <h4 class="news-title">
                                             <a href="#">Download our monitoring App on Google play store</a>
                                         </h4>
+                                        {{--
                                         <div class="news-btn">
                                             <a class="readon2 transparent" href="#"> Read More</a>
                                         </div>
+                                        --}}
                                     </div>
                                 </div><div class="news-list-item mb-40">
                                     <div class="news-img">
-                                        <img src="{{asset('images/blog/latest/2.jpg')}}" alt="">
+                                        <img src="{{asset('images/apps/P5.JPG')}}" alt="">
                                     </div>
                                     <div class="news-content">
                                         <div class="news-date">
@@ -32,14 +34,16 @@
                                         <h4 class="news-title">
                                             <a href="#">PHP-Laravel Framework version 8.0 documentation</a>
                                         </h4>
+                                        {{--
                                         <div class="news-btn">
                                             <a class="readon2 transparent" href="#"> Read More</a>
                                         </div>
+                                        --}}
                                     </div>
                                 </div>
                                 <div class="news-list-item">
                                     <div class="news-img">
-                                        <img src="{{asset('images/blog/latest/3.jpg')}}" alt="">
+                                        <img src="{{asset('images/apps/P6.JPG')}}" alt="">
                                     </div>
                                     <div class="news-content">
                                         <div class="news-date">
@@ -48,9 +52,11 @@
                                         <h4 class="news-title">
                                             <a href="#">Send Messages through our Bulksms Platform now</a>
                                         </h4>
+                                        {{--
                                         <div class="news-btn">
                                             <a class="readon2 transparent" href="#"> Read More</a>
                                         </div>
+                                        --}}
                                     </div>
                                 </div>
                             </div>
@@ -72,7 +78,7 @@
                                 <h4 class="title">
                                     <a href="#">Eshkool Gala Day For Kids</a>
                                 </h4>
-                                <p>Event Description. A party is a gathering of people who have been invited by a host for the purposes of… </p>
+                                <p class="text-justify">Event Description. A party is a gathering of people who have been invited by a host for the purposes of expectations to build up applications accordingly… </p>
 
                             </div>
                         </div>
@@ -88,7 +94,7 @@
                                 <h4 class="title">
                                     <a href="#">Kids Study Tour 2020.</a>
                                 </h4>
-                                <p>Event Description. A party is a gathering of people who have been invited by a host for the purposes of… </p>
+                                <p class="text-justify">Event Description. A party is a gathering of people who have been invited by a host for the purposes of… </p>
 
                             </div>
                         </div>
@@ -104,7 +110,7 @@
                                 <h4 class="title">
                                     <a href="#">Kids Drawing Content</a>
                                 </h4>
-                                <p>Event Description. A party is a gathering of people who have been invited by a host for the purposes of… </p>
+                                <p class="text-justify">Event Description. A party is a gathering of people who have been invited by a host for the purposes of… </p>
 
                             </div>
                         </div>

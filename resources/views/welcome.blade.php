@@ -15,7 +15,7 @@
             <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
     </head>
-    <body class="home1">
+    <body class="home3">
    <div class="full-width-header">
        
    @include('frontlayouts.menu')
