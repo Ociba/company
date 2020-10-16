@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/','FrontPagesController@homepage');
 Route::get('/apply-now','ApplicationController@getApplicationForm');
-Route::get('/company-dashboard', function () { return view('admin.template');})->name('Dashboard');
+Route::get('/jajacompany-dashboard', function () { return view('admin.template');})->name('Dashboard');
 Route::get('/create-application','ApplicationController@validateApplication');
 Route::get('/unread-application','ApplicationController@getApplicationNotRead')->name('Unread Applications');
 Route::get('/change-not-read-to-read/{id}','ApplicationController@updateStatusToRead');
@@ -26,12 +26,16 @@ Route::get('/read-message','MessageController@getReadMessages')->name('read Mess
 Route::get('/change-unread-message-to-read/{id}','MessageController@updateMessageToRead');
 Route::get('/get-form-to-add-news','NewsController@getNewsForm')->name('News Form');
 Route::get('/display-news-in-dashboard','NewsController@getNewsOnDashbord')->name('News');
+Route::get('/edit-news/{id}','NewsController@editNews')->name('Edit News');
+Route::Post('/update-news/{id}','NewsController@updateNews');
 Route::post('/create-news','NewsController@validateNews');
 Route::get('/delete-news/{id}','NewsController@deleteNews');
 Route::get('/display-events-in-dashboard','EventsController@getEventsOnDashbord')->name('Events');
 Route::get('/get-events-form','EventsController@getEventsForm')->name('Events Form');
 Route::get('/create-event','EventsController@validateEvent');
 Route::get('/delete-event/{id}','EventsController@deleteEvents');
+Route::get('/edit-event/{id}','EventsController@editEvents')->name('Edit Event');
+Route::Post('/update-event/{id}','EventsController@updateEvents');
 Route::get('/create-comment','CommentController@validateComment');
 Route::get('/approve-comment','CommentController@approveComment')->name('Approve Comment');
 Route::get('/reply/{id}','CommentController@replyForm')->name('Reply Comment');

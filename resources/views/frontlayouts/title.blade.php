@@ -1,1 +1,1 @@
-<title>JAJA | Uganda</title>
+<title>JAAJA | Uganda</title>

@@ -25,7 +25,7 @@ class CommentController extends Controller
      * This function fetches comments sent to be approved before displaying it
     */
     protected function approveComment(){
-        $comment_to_be_approved =Comment::where('status','active')->get();
+        $comment_to_be_approved =Comment::where('status','approved')->get();
         return view('admin.comment', compact('comment_to_be_approved'));
     }
    
@@ -53,7 +53,7 @@ class CommentController extends Controller
      * This function changes from active to approved comments
     */
     protected function deleteComment($id){
-        Comment::where('id',$id)->update(array('status' =>'approved'));
+        Comment::where('id',$id)->update(array('status' =>'active'));
         return redirect()->back()->with('You have successfully deleted comment');
     }
     /** 

@@ -1,70 +1,103 @@
 <!DOCTYPE html>
-<html>
-    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
-    @include('layouts.style')
-    <body class="hold-transition skin-blue sidebar-mini">
-        <div class="wrapper">
+<html lang="en">
 
-            <header class="main-header">
+<head>
 
-                <!-- Logo -->
-                <a href="#" class="logo">
-                <span class="logo-mini"><b>A</b>LT</span>
-                <!-- logo for regular state and mobile devices -->
-                <span class="logo-lg"><b>Goproug</b></span>
-                </a>
+	@include('layouts.title')
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="">
+	<meta name="author" content="Phoenixcoded" />
 
-                @include('layouts.topnav')
-                @include('layouts.sidebar')
+	<!-- Favicon icon -->
+    @include('layouts.css')
+    <link rel="stylesheet" href="{{asset('assets/plugins/data-tables/css/datatables.min.css')}}">
+</head>
 
-            <!-- Content Wrapper. Contains page content -->
-            <div class="content-wrapper">
-                <!-- Content Header (Page header) -->
-                @include('layouts.breadcrumbs')
-                @include('layouts.message')
-                <!-- Main content -->
-                            <div class="box">
-                            <div class="box-header">
-                               <h3 class="box-title"><a href="/get-events-form"><button class="btn btn-sm btn-primary">Add Event</button></a></h3>
-                            </div>
-                                <div class="box-body">
-                                    <table id="example1" class="table table-bordered table-striped">
-                                        <thead>
-                                            <tr>
-                                                <th>Heading</th>
-                                                <th>Content</th>
-                                                <th>Action</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                        @foreach($get_events as $event)
-                                            <tr>
-                                                <td>{{$event->heading}}</td>
-                                                <td>{{$event->content}}</td>
-                                                <td>
-                                                <a href="/delete-event/{{ $event->id }}"><button class="btn btn-sm btn-primary">delete</button></a>
-                                                </td>
-                                            </tr>
-                                        @endforeach
-                                        </tbody>
-                                    </table>
+<body class="">
+	@include('layouts.sidebar')
+
+	<!-- [ Header ] start -->
+	@include('layouts.topnav')
+	<!-- [ Header ] end -->
+	
+<!-- [ Main Content ] start -->
+<div class="pcoded-main-container">
+	<div class="pcoded-wrapper">
+		<div class="pcoded-content">
+			<div class="pcoded-inner-content">
+				<div class="main-body">
+					<div class="page-wrapper">
+						@include('layouts.breadcrumb')
+						<!-- [ Main Content ] start -->
+						<div class="row">
+							<!-- Zero config table start -->
+                            <div class="col-sm-12">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h5>
+                                        <a href="/get-events-form" button class="btn btn-primary mr-0">Add events</button></a>
+                                        </h5>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="dt-responsive table-responsive">
+                                            <table id="simpletable" class="table table-striped table-bordered nowrap">
+                                                <thead>
+                                                <tr>
+                                                        <th>Title</th>
+                                                        <th>Content</th>
+                                                        <th>Action</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    @foreach($get_events as $event)
+                                                    <tr>
+                                                        <td>{{$event->heading}}</td>
+                                                        <td>{{$event->content}}</td>
+                                                        <td>
+                                                        <a href="/edit-event/{{$event->id}}" button class="btn btn-success">Edit</button></a>
+                                                        <a href="/delete-event/{{$event->id}}" button class="btn btn-danger">Delete</button></a>
+                                                        </td>
+                                                    </tr>
+                                                    @endforeach
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
                                 </div>
-                                <!-- /.box-body -->
                             </div>
-                    </div>
-            <!-- /.content-wrapper -->
+						</div>
 
-            @include('layouts.footer')
+						<!-- [ Main Content ] end -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- [ Main Content ] end -->
 
-            <!-- Control Sidebar -->
-            @include('layouts.control-sidebar')
-            <!-- /.control-sidebar -->
-            <!-- Add the sidebar's background. This div must be placed
-                immediately after the control sidebar -->
-            <div class="control-sidebar-bg"></div>
 
-        </div>
-        <!-- ./wrapper -->
     @include('layouts.javascript')
-    </body>
+    <script src="{{asset('assets/plugins/data-tables/js/datatables.min.js')}}"></script>
+    <script src="{{asset('assets/js/pages/data-basic-custom.js')}}"></script>
+
+<div class="footer-fab">
+    <div class="b-bg">
+        <i class="fas fa-question"></i>
+    </div>
+    <div class="fab-hover">
+        <ul class="list-unstyled">
+            <li><a href="../doc/index-bc-package.html" target="_blank" data-text="UI Kit" class="btn btn-icon btn-rounded btn-info m-0"><i class="feather icon-layers"></i></a></li>
+            <li><a href="../doc/index.html" target="_blank" data-text="Document" class="btn btn-icon btn-rounded btn-primary m-0"><i class="feather icon feather icon-book"></i></a></li>
+        </ul>
+    </div>
+</div>
+
+
+</body>
+
 </html>

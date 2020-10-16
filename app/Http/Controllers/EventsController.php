@@ -44,6 +44,23 @@ class EventsController extends Controller
             return $this->createEvents();
         }
     }
+     /** 
+     * This function edits news
+    */
+    protected function editEvents($id){
+        $edit_events =Event::where('id',$id)->get();
+        return view('admin.edit-events', compact('edit_events'));
+    }
+    /** 
+     * This function updates the news details
+    */
+    protected function updateEvents($id){
+        $update_event = Event::find($id)->update(array(
+            'heading'        => request()->heading,
+            'content'        => request()->content,   
+        ));
+        return redirect()->back()->with('An Event Update was made successfully');
+    } 
     /** 
      * This function updates event status to deleted
     */

@@ -25,7 +25,10 @@
 
 	@include('frontlayouts.form')
 	<!--Banner Section End-->
-		
+    <!--Languages start-->
+    @include('frontlayouts.language')
+    {{--@include('frontlayouts.owl')--}}
+    <!--End language-->	
 		<!-- Services Start -->
     @include('frontlayouts.welcome')
     <!-- Services Start -->
@@ -34,18 +37,18 @@
        @include('frontlayouts.our-work')
        <!-- Work so we have done end -->
 
-        <!-- Services Start -->
-        {{--@include('frontlayouts.services')--}}
-        <!-- Services End -->
-
-        <!-- Team Start -->
-        @include('frontlayouts.team')
-        <!-- Team End -->
-
+        <!-- product Start -->
+        @include('frontlayouts.product')
+        <!-- product End -->
+        
         <!-- Video Start -->
         @include('frontlayouts.video')
         <!-- Video End -->
-     
+        
+        <!--Team start-->
+        @include('frontlayouts.team')
+        <!--Team end-->
+
         <!-- Latest News Start -->
         @include('frontlayouts.events')
         <!-- Counter Up Section Start-->

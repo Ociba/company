@@ -1,83 +1,101 @@
 <!DOCTYPE html>
-<html>
-    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
-    @include('layouts.style')
-    <body class="hold-transition skin-blue sidebar-mini">
-        <div class="wrapper">
+<html lang="en">
 
-            <header class="main-header">
+<head>
 
-                <!-- Logo -->
-                <a href="#" class="logo">
-                <span class="logo-mini"><b>A</b>LT</span>
-                <!-- logo for regular state and mobile devices -->
-                <span class="logo-lg"><b>Goproug</b></span>
-                </a>
+	@include('layouts.title')
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="">
+	<meta name="author" content="Phoenixcoded" />
 
-                @include('layouts.topnav')
-                @include('layouts.sidebar')
+	<!-- Favicon icon -->
+    @include('layouts.css')
+</head>
 
-            <!-- Content Wrapper. Contains page content -->
-            <div class="content-wrapper">
-                <!-- Content Header (Page header) -->
-                @include('layouts.breadcrumbs')
-                @include('layouts.message')
-                <!-- Main content -->
-                            <div class="box">
-                                <div class="box-body">
-                                    <div class="box box-info">
-                                        <div class="box-header with-border">
-                                        <h3 class="box-title">{{request()->route()->getName()}}</h3>
-                                        </div>
-                                        <!-- /.box-header -->
-                                        <!-- form start -->
-                                        <form class="form-horizontal" method="post" action="/create-news" enctype="multipart/form-data">
-                                        @csrf
-                                        <div class="box-body">
-                                            <div class="form-group">
-                                            <label for="inputEmail3" class="col-sm-2 control-label">Heading</label>
+<body class="">
+	@include('layouts.sidebar')
 
-                                            <div class="col-sm-10">
-                                                <input type="text" class="form-control" id="inputEmail3" name="heading" placeholder="">
-                                            </div>
-                                            </div>
-                                            <div class="form-group">
-                                            <label for="inputPassword3" class="col-sm-2 control-label">Content</label>
-
-                                            <div class="col-sm-10">
-                                            <textarea class="form-control" name="content" rows="3" placeholder="Enter ..."></textarea>
-                                            </div>
-                                            </div>
-                                            <div class="form-group">
-                                            <label for="inputEmail3" class="col-sm-2 control-label">Image</label>
-
-                                            <div class="col-sm-10">
-                                                <input type="file" class="form-control" id="inputEmail3" name="image" placeholder="">
-                                            </div>
-                                            </div>
-                                            <div class="text-center">
-                                            <button type="submit" class="btn btn-info">Submit</button>
-                                            </div>
-                                        </div>
-                                        </form>
+	<!-- [ Header ] start -->
+	@include('layouts.topnav')
+	<!-- [ Header ] end -->
+	
+<!-- [ Main Content ] start -->
+<div class="pcoded-main-container">
+	<div class="pcoded-wrapper">
+		<div class="pcoded-content">
+			<div class="pcoded-inner-content">
+				<div class="main-body">
+					<div class="page-wrapper">
+						@include('layouts.breadcrumb')
+						<!-- [ Main Content ] start -->
+						<div class="row">
+							<!-- Zero config table start -->
+                            <div class="col-sm-12">
+                                <div class="card">
+                                <div class="card-header">
+                                        <h5>News Form</h5>
                                     </div>
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <form action="/create-news" method="post" enctype="multipart/form-data" class="">
+                                                @csrf
+                                                    <div class="form-group">
+                                                        <label for="exampleInputEmail1">Title</label>
+                                                        <input type="text" class="form-control" id="exampleInputEmail1" name="heading" aria-describedby="emailHelp" placeholder="Enter title" required>
+                                                        
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="exampleInputPassword1">Content</label>
+                                                        <textarea class="form-control" name="content" id="exampleFormControlTextarea1" rows="3" placeholder="Write brief text here" required></textarea>
+                                                    </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                    <div class="form-group dropzone">
+                                                        <label>Photo</label>
+                                                        <div class="fallback">
+                                                            <input name="image" type="file" multiple />
+                                                        </div> 
+                                                    </div>
+                                                
+                                            </div>
+                                        </div>
+                                        <button type="submit" class="btn waves-effect waves-light btn-primary">Submit</button>
+                                    </form>
+                                    <a href="/display-news-in-dashboard" button class="btn waves-effect waves-light btn-warning">Back</button></a>
                                 </div>
-                                <!-- /.box-body -->
                             </div>
-                    </div>
-            <!-- /.content-wrapper -->
+						</div>
 
-            @include('layouts.footer')
+						<!-- [ Main Content ] end -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- [ Main Content ] end -->
 
-            <!-- Control Sidebar -->
-            @include('layouts.control-sidebar')
-            <!-- /.control-sidebar -->
-            <!-- Add the sidebar's background. This div must be placed
-                immediately after the control sidebar -->
-            <div class="control-sidebar-bg"></div>
 
-        </div>
-        <!-- ./wrapper -->
     @include('layouts.javascript')
-    </body>
+
+<div class="footer-fab">
+    <div class="b-bg">
+        <i class="fas fa-question"></i>
+    </div>
+    <div class="fab-hover">
+        <ul class="list-unstyled">
+            <li><a href="../doc/index-bc-package.html" target="_blank" data-text="UI Kit" class="btn btn-icon btn-rounded btn-info m-0"><i class="feather icon-layers"></i></a></li>
+            <li><a href="../doc/index.html" target="_blank" data-text="Document" class="btn btn-icon btn-rounded btn-primary m-0"><i class="feather icon feather icon-book"></i></a></li>
+        </ul>
+    </div>
+</div>
+
+
+</body>
+
 </html>

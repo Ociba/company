@@ -52,6 +52,24 @@ class NewsController extends Controller
         }
     }
     /** 
+     * This function edits news
+    */
+    protected function editNews($id){
+        $edit_news =News::where('id',$id)->get();
+        return view('admin.edit-news', compact('edit_news'));
+    }
+    /** 
+     * This function updates the news details
+    */
+    protected function updateNews($id){
+        $update_news = News::find($id)->update(array(
+            'heading'        => request()->heading,
+            'content'        => request()->content,
+            'image'          =>  request()->image,   
+        ));
+        return redirect()->back()->with('A News Update was made successfully');
+    } 
+    /** 
      * This function updates news status to deleted
     */
     protected function deleteNews($id){

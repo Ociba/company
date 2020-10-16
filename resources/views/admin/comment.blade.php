@@ -1,84 +1,107 @@
 <!DOCTYPE html>
-<html>
-<meta http-equiv="content-type" content="text/html;charset=utf-8" />
-@include('layouts.style')
-<link rel="stylesheet" href="{{asset('admin/bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css')}}">
-<body class="hold-transition skin-blue sidebar-mini">
-<div class="wrapper">
+<html lang="en">
 
-  <header class="main-header">
+<head>
 
-    <!-- Logo -->
-    <a href="index2.html" class="logo">
-      <span class="logo-mini"><b>A</b>LT</span>
-      <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg"><b>JAA</b>JA</span>
-    </a>
+	@include('layouts.title')
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="">
+	<meta name="author" content="Phoenixcoded" />
 
-    @include('layouts.topnav')
-    @include('layouts.sidebar')
+	<!-- Favicon icon -->
+    @include('layouts.css')
+    <link rel="stylesheet" href="{{asset('assets/plugins/data-tables/css/datatables.min.css')}}">
+</head>
 
-  <!-- Content Wrapper. Contains page content -->
-  <div class="content-wrapper">
-    <!-- Content Header (Page header) -->
-    @include('layouts.breadcrumbs')
-    <!-- Main content -->
-    <section class="content">
-      <div class="row">
-        <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
-    <div class="box">
-            <!-- /.box-header -->
-            <div class="box-body">
-              <table id="example1" class="table table-bordered table-striped responsive">
-                <thead>
-                <tr>
-                  <th>Name</th>
-                  <th>Email</th>
-                  <th>Contact</th>
-                  <th>Comment</th>
-                  <th>Reply</th>
-                  <th class="col-xs-2">Action</th>
-                </tr>
-                </thead>
-                <tbody>
-                @foreach($comment_to_be_approved as $comment)
-                <tr>
-                  <td>{{$comment->last_name}} {{$comment->first_name}}</td>
-                  <td>{{$comment->email}}</td>
-                  <td>{{$comment->contact}}</td>
-                  <td> {{$comment->comment}}</td>
-                  <td> {{$comment->reply}}</td>
-                  <td>
-                  <a href="/approve/{{$comment->id}}" class="btn btn-danger btn-xs"> approve</a>
-                  <a href="/reply/{{$comment->id}}" class="btn btn-primary btn-xs"> reply</a>
-                  </td>
-                </tr>
-                @endforeach
-                </tbody>
-              </table>
-            </div>
-            <!-- /.box-body -->
-          </div>
-          <!-- /.box -->
-          </div>
-          </div>
-          </section>
-  </div>
-  <!-- /.content-wrapper -->
+<body class="">
+	@include('layouts.sidebar')
 
-  @include('layouts.footer')
+	<!-- [ Header ] start -->
+	@include('layouts.topnav')
+	<!-- [ Header ] end -->
+	
+<!-- [ Main Content ] start -->
+<div class="pcoded-main-container">
+	<div class="pcoded-wrapper">
+		<div class="pcoded-content">
+			<div class="pcoded-inner-content">
+				<div class="main-body">
+					<div class="page-wrapper">
+						@include('layouts.breadcrumb')
+						<!-- [ Main Content ] start -->
+						<div class="row">
+							<!-- Zero config table start -->
+                            <div class="col-sm-12">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h5>Zero Configuration</h5>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="dt-responsive table-responsive">
+                                            <table id="simpletable" class="table table-striped table-bordered nowrap">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Name</th>
+                                                        <th>Email</th>
+                                                        <th>Contact</th>
+                                                        <th>Comment</th>
+                                                        <th>Reply</th>
+                                                        <th>Action</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    @foreach($comment_to_be_approved as $unread)
+                                                    <tr>
+                                                        <td>{{$unread->last_name}} {{$unread->first_name}}</td>
+                                                        <td>{{$unread->email}}</td>
+                                                        <td>{{$unread->contact}}</td>
+                                                        <td>{{$unread->comment}}</td>
+                                                        <td>{{$unread->reply}}</td>
+                                                        <td>
+                                                        <a href="/reply/{{$unread->id}}" button class="btn btn-primary">Reply</button></a>
+                                                        <a href="/approve/{{$unread->id}}" button class="btn btn-danger">Approve</button></a>
+                                                        </td>
+                                                    </tr>
+                                                    @endforeach
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+						</div>
 
-  <!-- Control Sidebar -->
-  @include('layouts.control-sidebar')
-  <!-- /.control-sidebar -->
-  <!-- Add the sidebar's background. This div must be placed
-       immediately after the control sidebar -->
-  <div class="control-sidebar-bg"></div>
-
+						<!-- [ Main Content ] end -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
-<!-- ./wrapper -->
-@include('layouts.javascript')
-<script src="{{asset('admin/bower_components/datatables.net/js/jquery.dataTables.min.js')}}"></script>
-<script src="{{asset('admin/bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js')}}"></script>
+<!-- [ Main Content ] end -->
+
+
+    @include('layouts.javascript')
+    <script src="{{asset('assets/plugins/data-tables/js/datatables.min.js')}}"></script>
+    <script src="{{asset('assets/js/pages/data-basic-custom.js')}}"></script>
+
+<div class="footer-fab">
+    <div class="b-bg">
+        <i class="fas fa-question"></i>
+    </div>
+    <div class="fab-hover">
+        <ul class="list-unstyled">
+            <li><a href="../doc/index-bc-package.html" target="_blank" data-text="UI Kit" class="btn btn-icon btn-rounded btn-info m-0"><i class="feather icon-layers"></i></a></li>
+            <li><a href="../doc/index.html" target="_blank" data-text="Document" class="btn btn-icon btn-rounded btn-primary m-0"><i class="feather icon feather icon-book"></i></a></li>
+        </ul>
+    </div>
+</div>
+
+
 </body>
+
 </html>
