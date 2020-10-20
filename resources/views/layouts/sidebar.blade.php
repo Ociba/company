@@ -64,6 +64,22 @@
 					</li>
 
 					<li class="nav-item pcoded-menu-caption">
+						<label>Payments</label>
+					</li>
+					<li class="nav-item">
+						<a href="/get-invoice" class="nav-link waves-effect waves-light"><span class="pcoded-micon"><i class="feather icon-align-justify"></i></span><span class="pcoded-mtext">Payment</span></a>
+						
+					</li>
+					<li class="nav-item">
+						<a href="/get-expenditure" class="nav-link waves-effect waves-light"><span class="pcoded-micon"><i class="feather icon-align-justify"></i></span><span class="pcoded-mtext">Expenditure</span></a>
+						
+					</li>
+					<li class="nav-item">
+						<a href="/get-pricing" class="nav-link waves-effect waves-light"><span class="pcoded-micon"><i class="feather icon-align-justify"></i></span><span class="pcoded-mtext">Pricing</span></a>
+						
+					</li>
+
+					<li class="nav-item pcoded-menu-caption">
 						<label>Support</label>
 					</li>
 					<li class="nav-item"><a href="../doc/index.html" class="nav-link waves-effect waves-light" target="_blank"><span class="pcoded-micon"><i class="feather icon-book"></i></span><span class="pcoded-mtext">Documentation</span></a></li>

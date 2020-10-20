@@ -11,3 +11,4 @@
 <!-- vendor css -->
 <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
 <link rel="stylesheet" href="{{asset('assets/css/pages/fileupload.css')}}">
+<link rel="stylesheet" href="{{asset('assets/css/pages/pages.css')}}">

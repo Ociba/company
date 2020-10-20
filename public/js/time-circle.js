@@ -836,7 +836,7 @@
                 color: "#9CF"
             },
             Minutes: {
-                show: true,
+                 show: true,
                 text: "Minutes",
                 color: "#BFB"
             },

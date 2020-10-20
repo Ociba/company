@@ -45,7 +45,7 @@
 						<div class="main-menu">
 							<div class="row rs-vertical-middle">
 								<div class="col-lg-3 col-md-12">
-									<div class="logo-area text-white">
+									<div class="logo-area text-white" style="margin-top:2px;">
                     {{--<a href="index.html"><img src="images/logo-white.png" alt="logo"></a>--}}
                     JAAJA
 									</div>							

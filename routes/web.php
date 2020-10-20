@@ -41,3 +41,18 @@ Route::get('/approve-comment','CommentController@approveComment')->name('Approve
 Route::get('/reply/{id}','CommentController@replyForm')->name('Reply Comment');
 Route::get('/reply-comment/{id}','CommentController@replyComment');
 Route::get('/approve/{id}','CommentController@deleteComment');
+Route::get('/edit-payment/{id}','PaymentController@editPayment')->name('Edit Payment');
+Route::get('/get-invoice','PaymentController@getPayment')->name('Payment');
+Route::get('/get-payment-information/{id}','PaymentController@paymentDetails')->name('Payment Details');
+Route::get('/make-payments','PaymentController@getPaymentForm')->name('Payment Form');
+Route::get('/pay','PaymentController@validatePayment');
+Route::get('/delete-payment/{id}','PaymentController@deletePayment');
+Route::get('/save-edited-payment/{id}','PaymentController@updatePayment');
+Route::get('/get-pricing','PaymentController@getPrice')->name('Pricing');
+Route::get('/get-expenditure-form','ExpenditureController@expenditureForm')->name('Expenditure Form');
+Route::get('/create-expenditure','ExpenditureController@validateExpenditure');
+Route::get('/get-expenditure-details/{id}','ExpenditureController@expenditureDetails')->name('Expenditure Information');
+Route::get('/edit-expenditure-form/{id}','ExpenditureController@editExpenditure')->name('Edit Expenditure Form');
+Route::get('/update-expenditure/{id}','ExpenditureController@updatePayment');
+Route::get('/delete-expenditure/{id}','ExpenditureController@deleteExpenditure');
+Route::get('/get-expenditure','ExpenditureController@getExpenditure')->name('Expenditure');

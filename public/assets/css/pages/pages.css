@@ -512,7 +512,7 @@ new-task label input[type=checkbox] {
 
 .invoice-total.table tbody {
     padding-right: 20px;
-    float: right;
+    text-align: center;
 }
 
 .invoice-summary .label {

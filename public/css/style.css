@@ -1429,6 +1429,7 @@ ul {
   position: absolute;
   width: 100%;
   z-index: 999;
+  background-color: black;
 }
 #rs-header.rs-transfarent-header-style {
   position: absolute;
@@ -1437,6 +1438,7 @@ ul {
 }
 #rs-header.rs-transfarent-header-style .logo-area {
   padding-top: 0;
+  
 }
 #rs-header.rs-transfarent-header-style .menu-sticky.sticky {
   background: #212121;
@@ -1520,7 +1522,7 @@ ul {
   background: blue;
 }
 .home3 .rs-header .menu-area .toggle-btn.active .border-icon:nth-child(1) {
-  top: 9px;
+  top: 2px;
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
 }
@@ -2193,7 +2195,7 @@ ul {
   -webkit-animation: swing-anim2 2s alternate-reverse infinite;
 }
 .rs-banner-section3 {
-  background: url(../images/bg/home8-banner-bg.jpg);
+  background: url(../images/bg/comp5.jpg);
   background-position: center top;
   background-repeat: no-repeat;
   padding-top: 180px;
@@ -2273,7 +2275,7 @@ ul {
   width: 100%;
   clip-path: polygon(-115.5% 0, 113% 0, 76% 100%);
   left: 0;
-  background-color: rgb(177, 177, 196);
+  background-color: #008080;
   top: 0;
   content: "";
 }
@@ -2301,7 +2303,7 @@ ul {
   line-height: 50px;
   -webkit-appearance: button;
   cursor: pointer;
-  background: blue;
+  background:#00CED1;
   border: 0;
   color: #fff;
   font-size: 15px;

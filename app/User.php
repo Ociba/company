@@ -5,6 +5,7 @@ namespace App;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
+use App\Payment;
 
 class User extends Authenticatable
 {
@@ -36,4 +37,11 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+    /** 
+     * This function gets the total amount of money paid
+    */
+    public function getTotalAmount(){
+        $total_amount =Payment::sum('paid')->get();
+        return $total_amount;
+    }
 }
