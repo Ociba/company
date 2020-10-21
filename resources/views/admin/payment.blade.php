@@ -41,7 +41,7 @@
                                         <h5>
                                         <a href="/make-payments" button class="btn btn-primary mr-0">Add Payments</button></a>
                                         </h5>
-                                        <span>This is the current total Amount =500000</span>
+                                        <span class="font-weight-bold">This is the current total Amount ={{$total_amount}}</span>
                                     </div>
                                     <div class="card-body">
                                         <div class="dt-responsive table-responsive">

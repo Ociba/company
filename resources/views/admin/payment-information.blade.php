@@ -55,30 +55,17 @@
                                     <div class="card">
                                         <div class="row invoice-contact">
                                             <div class="col-md-8">
-                                                <div class="invoice-box row">
-                                                    <div class="col-sm-12">
-                                                        <table class="table table-responsive invoice-table table-borderless p-l-20">
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td><a href="index.html" class="b-brand">
-                                                                            <img class="img-fluid" src="../assets/images/logo-dark.png" alt="Flex Able Logo">
-                                                                        </a>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>JAAJA IT Solutions </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>Behind UCC Building, Ground Floor</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td><a class="text-secondary" href="mailto:demo@gmail.com" target="_top">jaaja@gmail.com</a></td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>+256783-399937</td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
+                                                <div class="row">
+                                                        <div class="col-12">
+                                                            <div class="card-body text-center">
+                                                                <h5 class="m-b-10 text-center">JAAJA IT SOLUTIONS</h5>
+                                                                <h5 class="m-b-10 text-center">Uganda-Kampala</h5>
+                                                                <h6 class="text-center">Plot No. 9</h6>
+                                                                <h6 class="m-b-10 text-center">Behind King Ceasor Plaza</h6>
+                                                                <h6 class="m-b-10 text-center">Portal Avenue</h6>
+                                                                <h6 class="m-b-10 text-center">Opposite Christ The King Church</h6>
+                                                                <h6 class="m-b-10 text-center">0777745520 | 0776913451</h6>
+                                                            </div>
                                                     </div>
                                                 </div>
                                             </div>

@@ -8,8 +8,8 @@
                             <i class="fa fa-phone"></i>
                             <h4 class="contact-title">Phone Number</h4>
                             <p class="contact-desc">
-                                +3453-909-6565<br>
-                                +2390-875-2235
+                                +256777745520<br>
+                                +256776913451
                             </p>
                         </div>
                     </div>
@@ -18,8 +18,7 @@
                             <i class="fa fa-map-marker"></i>
                             <h4 class="contact-title">Email Address</h4>
                             <p class="contact-desc">
-                                infoname@gmail.com<br>
-                                www.yourname.com
+                                jaajaitsolutions@gmail.com<br>
                             </p> 
                         </div>
                     </div>

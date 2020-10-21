@@ -8,14 +8,14 @@
                             <div class="news-list-block">
                                 <div class="news-list-item mb-40">
                                     <div class="news-img">
-                                        <img src="{{asset('images/apps/P4.JPG')}}" alt="">
+                                        <img src="{{asset('images/events/logo.png')}}" alt="">
                                     </div>
                                     <div class="news-content">
                                         <div class="news-date">
                                             <span>October 10, 2020</span>
                                         </div>
                                         <h4 class="news-title">
-                                            <a href="#">Download our monitoring App on Google play store</a>
+                                            <a href="#">monitoring App on Google play store</a>
                                         </h4>
                                         {{--
                                         <div class="news-btn">

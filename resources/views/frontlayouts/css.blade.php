@@ -29,3 +29,6 @@
         <link rel="stylesheet" type="text/css" href="{{asset('css/spacing.css')}}">
         <!-- responsive css -->
         <link rel="stylesheet" type="text/css" href="{{asset('css/responsive.css')}}">
+        <link rel="stylesheet" type="text/css" href="{{asset('css/slider.css')}}">
+
+        

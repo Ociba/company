@@ -3,8 +3,34 @@
             <div class="row align-items-center">
               <div class="col-lg-7">
               	<div class="countdown-part">
-              	    <span class="sub-title">GET CONNECTED WITH US FOR IT SOLUTIONS</span>
+              	    {{--
+					  <span class="sub-title">GET CONNECTED WITH US FOR IT SOLUTIONS</span>
               	    <h2 class="title">Send Us Message Now </h2>
+					--}}
+			   <div class="content-slider">
+              <div class="slider">
+                <div class="mask">
+                  <ul>
+                    <li class="anim1">
+                      <div class="quote">Hello, this is a quote from a person.</div>
+                      {{--<div class="source">- Person</div>--}}
+                    </li>
+                    <li class="anim2">
+                      <div class="quote">Hello, this is a quote from another person.</div>
+                    </li>
+                    <li class="anim3">
+                      <div class="quote">Hello, this is a quote from an animal.</div>
+                    </li>
+                    <li class="anim4">
+                      <div class="quote">Hello, this is a quote from a plant.</div>
+                    </li>
+                    <li class="anim5">
+                      <div class="quote">How do ya like that.</div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
               	    <div class="counter-wrap">
               	        <div class="timecounter-inner"> 
               	            <div class="CountDownTimer2" data-date="2020-12-20 23:59:59"></div>

@@ -17,7 +17,9 @@ class CreateExpendituresTable extends Migration
             $table->id();
             $table->string('item');
             $table->string('quantity');
-            $table->string('unit_price');
+            $table->string('unit');
+            $table->string('particulars');
+            $table->string('rate');
             $table->string('amount');
             $table->string('person');
             $table->string('date');

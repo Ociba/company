@@ -33,6 +33,7 @@
 						@include('layouts.breadcrumb')
 						<!-- [ Main Content ] start -->
 						<div class="row">
+                        @include('layouts.message')
 							<!-- Zero config table start -->
                             <div class="col-sm-12">
                                 <div class="card">
@@ -57,14 +58,20 @@
                                             </div>
                                             <div class="col-md-6">
                                             <div class="form-group">
-                                                <label for="exampleInputEmail1">Unit Price</label>
-                                                <input type="text" class="form-control" name="unit_price" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter price" required>
+                                                <label for="exampleInputEmail1">Unit</label>
+                                                <input type="text" class="form-control" name="unit" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter dozen, carton" required>
                                             </div>
                                             </div>
                                             <div class="col-md-6">
                                             <div class="form-group">
-                                                <label for="exampleInputEmail1">Amount</label>
-                                                <input type="text" class="form-control" name="amount" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Amount" required>
+                                                <label for="exampleInputEmail1">Particular</label>
+                                                <input type="text" class="form-control" name="particulars" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter particulars" required>
+                                            </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="exampleInputEmail1">Rate</label>
+                                                <input type="text" class="form-control" name="rate" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter rate" required>
                                             </div>
                                             </div>
                                             <div class="col-md-6">
@@ -78,7 +85,8 @@
                                                 <label for="exampleInputEmail1">Date</label>
                                                 <input type="text" class="form-control" name="date" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter date" required>
                                             </div>
-                                            </div>  
+                                            </div> 
+                                            <input type="hidden" class="form-control" name="amount" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter amount"> 
                                             <div class="col-md-12 text-center">      
                                             <button type="submit" class="btn waves-effect waves-light btn-primary">Submit</button>
                                             

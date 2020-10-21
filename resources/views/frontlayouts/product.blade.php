@@ -18,7 +18,7 @@
 		                    </div>
 		                    <div class="team-body">
                                 <span class="designation">Monitoring System</span>
-                                <a href="#"><h3 class="name">www.monitoring.com</h3></a>
+                                <a href="http://saudi.goproug.com"><h3 class="name">www.monitoring.com</h3></a>
 		                    </div>
 		                </div>						
 					</div>
@@ -68,8 +68,8 @@
 		                        </div>
 		                    </div>
 		                    <div class="team-body">
-                                <span class="designation">Monitoring Mobile App</span>
-                                <a href="teachers-single.html"><h3 class="name">www.monapp.com</h3></a>
+                                <span class="designation">JAAJA Mobile App</span>
+                                <a href="#"><h3 class="name">jaaja</h3></a>
 		                    </div>
 		                </div>						
 					</div>

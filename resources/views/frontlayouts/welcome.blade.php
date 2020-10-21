@@ -3,7 +3,7 @@
             <div class="row">
                 <div class="col-lg-5 pt-40">
                     <div class="img-part">
-                        <img src="{{asset('images/about/home7.jpg')}}" alt="">
+                        <img src="{{asset('images/about/group.JPG')}}" alt="">
                     </div>
                 </div>
                 <div class="col-lg-7 pl-60 md-pt-40 md-pl-15">
@@ -30,7 +30,7 @@
                         <div class="col-sm-6">
                             <div class="course-author">
                               <div class="align-img">
-                                  <img src="{{asset('images/team/3.jpg')}}" alt="">
+                                  <img src="{{asset('images/team/johnson.JPG')}}" alt="">
                               </div>
                               <div class="author-content">
                                   <h4 class="mb-0">MR. Matama Johnson</h4>

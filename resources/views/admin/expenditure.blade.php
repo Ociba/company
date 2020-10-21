@@ -41,7 +41,7 @@
                                         <h5>
                                         <a href="/get-expenditure-form" button class="btn btn-primary mr-0">Add expenditures</button></a>
                                         </h5>
-                                        <span>This is the current total Amount Spent =500000</span>
+                                        <span class="font-weight-bold">Expenditure ={{ number_format($total_expenditure)}} |Account Balance ={{ number_format($current_balance)}}</span>
                                     </div>
                                     <div class="card-body">
                                         <div class="dt-responsive table-responsive">

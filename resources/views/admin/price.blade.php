@@ -74,6 +74,7 @@
                                                         <td>300,000</td>
                                                         <td class="font-weight-bold">300,000</td>
                                                     </tr>
+                                                    <th class="btn bg-success"></th>
                                                     <tr>
                                                         <td>2</td>
                                                         <td>Web Applications</td>
@@ -95,6 +96,7 @@
                                                         <td>500,000</td>
                                                         <td class="font-weight-bold">500,000</td>
                                                     </tr>
+                                                    
                                                     <tr>
                                                         <td></td>
                                                         <td></td>

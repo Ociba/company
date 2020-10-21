@@ -12,7 +12,8 @@ class PaymentController extends Controller
     */
     protected function getPayment(){
         $payment =Payment::get();
-        return view('admin.payment', compact('payment'));
+        $total_amount =Payment::get()->sum('paid');
+        return view('admin.payment', compact('payment','total_amount'));
     }
     /** 
      * This function returns form for creating payments
@@ -27,18 +28,15 @@ class PaymentController extends Controller
         $payment =new Payment;
         $payment ->company    =request()->company;
         $payment ->item       =request()->item;
+        $payment ->phone      =request()->phone;
+        $payment ->company_email      =request()->company_email;
         $payment ->amount     =request()->amount;
-        $payment ->deposit    =request()->paid;
+        $payment ->paid    =request()->paid;
         $payment ->balance    =request()->balance;
         $payment ->time_frame =request()->time_frame;
         $payment ->incharge   =request()->incharge;
         $payment ->reason     =request()->reason;
         $payment->save();
-
-        if($payment->balance == 0) {
-
-            Payment::where('id',$id)->update(array('status'=>'completed'));
-        }
         return redirect()->back()->with('message','You have successfully made payments');
     }
     /** 
@@ -49,6 +47,10 @@ class PaymentController extends Controller
             return redirect()->back()->withErrors('Company is required, please fill it to continue');
         }elseif(empty(request()->item)){
             return redirect()->back()->withErrors('Item is required, please fill it to continue');
+        }elseif(empty(request()->phone)){
+            return redirect()->back()->withErrors('Phone is required, please fill it to continue');
+        }elseif(empty(request()->company_email)){
+            return redirect()->back()->withErrors('Email is required, please fill it to continue');
         }elseif(empty(request()->amount)){
             return redirect()->back()->withErrors('Amount is required, please fill it to continue');
         }elseif(empty(request()->paid)){
@@ -86,13 +88,24 @@ class PaymentController extends Controller
         'company'    =>request()->company,
         'item'      =>request()->item,
         'amount'     =>request()->amount,
-        'deposit'    =>request()->paid,
+        'paid'    =>request()->paid,
         'balance'    =>request()->balance,
         'time_frame' =>request()->time_frame,
         'incharge'   =>request()->incharge,
-        'reason'     =>request()->reason 
+        'reason'     =>request()->reason
        ));
+       $balance_from_database = Payment::where('id',$id)
+       ->select('payments.paid', 'payments.amount')
+       ->first();
+
+       
+
+       if($balance_from_database->balance == 0) {
+
+           Payment::where('id',$id)->update(array('status'=>'completed'));
+       }
        return redirect()->back()->with('message','You have successfully edit Payments');
+        
     }
     /** 
      * This function deletes payment softly

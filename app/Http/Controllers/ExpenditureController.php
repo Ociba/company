@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Expenditure;
+use App\Payment;
 
 class ExpenditureController extends Controller
 {
@@ -12,7 +13,10 @@ class ExpenditureController extends Controller
     */
     protected function getExpenditure(){
         $expenditure =Expenditure::get();
-        return view('admin.expenditure', compact('expenditure'));
+        $total_amount =Payment::get()->sum('paid');
+        $total_expenditure =Expenditure::get()->sum('amount');
+        $current_balance =$total_amount-$total_expenditure;
+        return view('admin.expenditure', compact('expenditure','current_balance','total_expenditure'));
     }
     /*** 
      * This function displays a form for expenditure
@@ -24,11 +28,16 @@ class ExpenditureController extends Controller
      * This function saves expenditure to database
     */
     private function createExpenditure(){
+        $quantity =Expenditure::request()->quantity;
+        $rate =Expenditure::request()->rate;
+        $amount =$quantity * $rate;
         $expenditure =new Expenditure;
         $expenditure->item     =request()->item;
+        $expenditure->particulars =request()->particulars;
         $expenditure->quantity =request()->quantity;
-        $expenditure->unit_price=request()->unit_price;
-        $expenditure->amount =request()->amount;
+        $expenditure->unit=request()->unit;
+        $expenditure->rate =request()->rate;
+        $expenditure->amount =$amount;
         $expenditure->person =request()->person;
         $expenditure->date   =request()->date;
         $expenditure->save();
@@ -42,8 +51,12 @@ class ExpenditureController extends Controller
             return redirect()->back()->withErrors('Item is required, please fill it to continue');
         }elseif(empty(request()->quantity)){
             return redirect()->back()->withErrors('Quantity is required, please fill it to continue');
-        }elseif(empty(request()->unit_price)){
-            return redirect()->back()->withErrors('Unit Price is required, please fill it to continue');
+        }elseif(empty(request()->particulars)){
+            return redirect()->back()->withErrors('Particular is required, please fill it to continue');
+        }elseif(empty(request()->rate)){
+            return redirect()->back()->withErrors('Quantity is required, please fill it to continue');
+        }elseif(empty(request()->unit)){
+            return redirect()->back()->withErrors('Unit is required, please fill it to continue');
         }elseif(empty(request()->amount)){
             return redirect()->back()->withErrors('Amount is required, please fill it to continue');
         }elseif(empty(request()->person)){
@@ -76,7 +89,9 @@ class ExpenditureController extends Controller
         Expenditure::where('id',$id)->update(array(
             'item'     =>request()->item,
             'quantity' =>request()->quantity,
-            'unit_price' =>request()->unit_price,
+            'particulars' =>request()->particulars,
+            'rate' =>request()->rate,
+            'unit' =>request()->unit,
             'amount' =>request()->amount,
             'person' =>request()->person,
             'date'   =>request()->date,

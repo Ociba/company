@@ -20,7 +20,7 @@
                      <div class="Services-wrap">
                          <div class="Services-item">
                              <div class="Services-icon">
-                                 <img src="{{asset('images/services/9.jpg')}}" alt="">
+                                 <img src="{{asset('images/services/engineers.JPG')}}" style="height:190px;" alt="">
                              </div>
                              <div class="Services-desc">
                                <i class="flaticon-book mb-15"></i>
@@ -35,7 +35,7 @@
                      <div class="Services-wrap">
                          <div class="Services-item">
                              <div class="Services-icon">
-                                 <img src="{{asset('images/services/8.jpg')}}" alt="">
+                                 <img src="{{asset('images/services/support.JPG')}}" style="height:190px;" alt="">
                              </div>
                              <div class="Services-desc">
                                <i class="flaticon-book mb-15"></i>

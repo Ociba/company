@@ -7,5 +7,5 @@ use Illuminate\Database\Eloquent\Model;
 class Expenditure extends Model
 {
     //
-    protected $fillable =['item','quantity','unit_price','amount','person','date','sign'];
+    protected $fillable =['item','quantity','unit','rate','particulars','amount','person','date','sign'];
 }
