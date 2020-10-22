@@ -50,12 +50,12 @@
                       <div class="Services-wrap">
                           <div class="Services-item">
                               <div class="Services-icon">
-                                  <img src="{{asset('images/services/10.jpg')}}" alt="">
+                                  <img src="{{asset('images/team/juljames.jpg')}}" style="height:190px; width:300px;" alt="">
                               </div>
                               <div class="Services-desc">
                                 <i class="flaticon-tool-2"></i>
                                  <h4 class="services-title mb-15">
-                                    <a href="#">Domestic Workers</a>
+                                    <a href="#">Training</a>
                                  </h4> 
                               </div>
                           </div>

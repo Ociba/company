@@ -577,7 +577,7 @@ ul {
   background-position: center top;
 }
 .bg3 {
-  background-image: url(../images/bg/counter-bg.jpg);
+  background-image: url(../images/about/group.JPG);
   background-size: cover;
   background-attachment: fixed;
   background-position: center top;
@@ -637,7 +637,7 @@ ul {
   padding-bottom: 100px;
 }
 .bg13 {
-  background-image: url(../images/services/support.JPG);
+  background-image: url(../images/about/group.JPG);
   background-position: center;
   background-size: cover;
   padding-top: 200px;
@@ -1484,7 +1484,8 @@ ul {
   background: blue;
 }
 .home3 .rs-header .menu-area {
-  background-color: rgba(37, 37, 37, 0.8);
+  background-color: blue;
+  
 }
 .home3 .rs-header .menu-area .rs-menu .nav-menu > li > a {
   color: #ffffff;
@@ -1492,7 +1493,7 @@ ul {
   height: 105px;
 }
 .home3 .rs-header .menu-area .rs-menu .nav-menu > li > a:hover {
-  color: blue;
+  color: white;
 }
 .home3 .rs-header .menu-area .toggle-btn {
   position: absolute;
@@ -1536,7 +1537,7 @@ ul {
   transform: rotate(-45deg);
 }
 .home3 .rs-header .menu-sticky.sticky {
-  background-color: #212121;
+  background-color: blue;
 }
 .home3 .rs-header .menu-sticky.sticky .rs-menu .nav-menu > li > a {
   line-height: 80px;
@@ -2198,7 +2199,7 @@ ul {
   background: url(../images/bg/comp5.jpg);
   background-position: center top;
   background-repeat: no-repeat;
-  padding-top: 180px;
+  padding-top: 100px;
   padding-bottom: 100px;
   background-size: cover;
 }
@@ -2767,6 +2768,8 @@ ul {
   line-height: 40px;
   color: #ffffff;
   margin: 0;
+  margin-top: -210px;
+  
 }
 /* ------------------------------------
     08. About Us
@@ -4960,7 +4963,7 @@ ul {
   color: blue;
 }
 .rs-countdown-part .countdown-part .counter-wrap .timecounter-inner .time_circles div h4 {
-  color: #ffffff;
+  color: blue;
   margin: 0;
   padding: 0;
   text-align: center;
@@ -4970,7 +4973,7 @@ ul {
   font-size: 12px !important;
 }
 .rs-countdown-part .register-form {
-  background: #fff;
+  background: blue;
 }
 .rs-countdown-part .register-form .form-title {
   position: relative;
@@ -8382,7 +8385,7 @@ ul {
 }
 .rs-footer .footer-contact-desc {
   margin: 0;
-  background: #222;
+  background: #3399ff;
   text-align: center;
   padding: 35px;
   position: absolute;
@@ -8418,7 +8421,7 @@ ul {
 .rs-footer .footer-contact-desc .contact-inner i {
   font-size: 28px;
   margin-bottom: 12px;
-  color: blue;
+  color: white;
 }
 .rs-footer .footer-contact-desc .contact-inner .contact-title {
   margin-bottom: 10px;

@@ -1,5 +1,5 @@
 <!-- Team Start -->
-<div id="rs-team-2" class="rs-team-2 team-page sec-spacer pb-0">
+<div id="rs-team-2" class="rs-team-2 team-page sec-spacer mb-0">
 			<div class="container">
                 <div class="gridFilter">
                     <h3 class="title" data-filter="*">Our Team</h3>

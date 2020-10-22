@@ -8,7 +8,7 @@
 					<div class="col-lg-3 col-md-6 col-xs-6 grid-item filter1">
 		                <div class="team-item">
 		                    <div class="team-img">
-		                        <a href="#"><img src="{{asset('images/apps/P4.JPG')}}" alt="" /></a>
+		                        <a href="#"><img src="{{asset('images/events/logo.png')}}" style="width:300px; height:170px;" alt="" /></a>
 		                        <div class="social-icon">
 		                        	<a href="#"><i class="fa fa-facebook"></i></a>
 		                        	<a href="#"><i class="fa fa-twitter"></i></a>
@@ -59,7 +59,7 @@
 					<div class="col-lg-3 col-md-6 col-xs-6 grid-item filter4">
 		                <div class="team-item">
 		                    <div class="team-img">
-		                        <a href="#"><img src="{{asset('images/apps/P4.JPG')}}" alt="" /></a>
+		                        <a href="#"><img src="{{asset('images/events/logo.png')}}" style="width:300px; height:170px;" alt="" /></a>
 		                        <div class="social-icon">
 		                        	<a href="#"><i class="fa fa-facebook"></i></a>
 		                        	<a href="#"><i class="fa fa-twitter"></i></a>

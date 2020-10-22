@@ -8,13 +8,12 @@
                     <div class="col-lg-3 col-md-12">
                         <div class="logo-area text-white" style="margin-top:2px;">
                             {{--<a href="index.html"><img src="images/logo-white.png" alt="logo"></a>--}}
-                            JAAJA
+                            JAAJA IT SOLUTIONS
                         </div>
                     </div>
                     <div class="col-lg-9 col-md-12">
                         <div class="main-menu">
                             <a class="rs-menu-toggle"><i class="fa fa-bars"></i></a>
-                            <a href="/apply-now" class="rs-menu-toggle">Apply</a>
                             <nav class="rs-menu">
                                 <ul class="nav-menu">
                                     <!-- Home -->

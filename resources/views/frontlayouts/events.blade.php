@@ -8,7 +8,7 @@
                             <div class="news-list-block">
                                 <div class="news-list-item mb-40">
                                     <div class="news-img">
-                                        <img src="{{asset('images/events/logo.png')}}" alt="">
+                                        <img src="{{asset('images/events/logo.png')}}" style="width:140px;" alt="">
                                     </div>
                                     <div class="news-content">
                                         <div class="news-date">

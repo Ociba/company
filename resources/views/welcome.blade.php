@@ -15,7 +15,7 @@
             <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
     </head>
-    <body class="home3">
+    <body class="home2">
     <!--Start of Tawk.to Script-->
 <script type="text/javascript">
     var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
@@ -31,7 +31,7 @@
 <!--End of Tawk.to Script-->
    <div class="full-width-header">
        
-   @include('frontlayouts.menu')
+   {{--@include('frontlayouts.menu')--}}
 
    </div>
    <!--Full width header End-->
@@ -53,25 +53,11 @@
         <!-- product Start -->
         @include('frontlayouts.product')
         <!-- product End -->
-        
-        <!-- Video Start -->
-        @include('frontlayouts.video')
-        <!-- Video End -->
-        
         <!--Team start-->
         @include('frontlayouts.team')
         <!--Team end-->
-
-        <!-- Latest News Start -->
-        @include('frontlayouts.events')
-        <!-- Counter Up Section Start-->
-
         @include('frontlayouts.count')
         <!-- Counter Down Section End -->
-
-        <!-- publication Section End -->
-        {{--@include('frontlayouts.publication')--}}
-        <!-- publication Section End -->
 
         <!-- ABOUT Section End -->
         @include('frontlayouts.our-say')
@@ -80,10 +66,6 @@
         <!-- Partner Start -->
         @include('frontlayouts.partner')
         <!-- Partner End -->
-        <!--Comments-->
-        @include('frontlayouts.comments')
-        <!--End of comment-->
-       
         <!-- Footer Start -->
         @include('frontlayouts.footer')
         <!-- Footer End -->

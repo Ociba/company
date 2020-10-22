@@ -21,7 +21,6 @@
              <li class="list-inline-item" style="color:red;"> PHP-Laravel Framework |</li>
              <li class="list-inline-item" style="color:DarkTurquoise;"> React-React Native |</li>
             <li class="list-inline-item" style="color:DarkBlue"> Python-Django |</li>
-            <li class="list-inline-item" style="color:DarkSlateGrey;"> Javascript</li>
             </ul>
           </div>
           <!-- Copyright -->

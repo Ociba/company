@@ -1,4 +1,4 @@
-<footer id="rs-footer" class="bg3 rs-footer rs-footer-style8">
+<footer id="rs-footer" class="bg3 rs-footer rs-footer-style8 blue-gradient color-block mb-3 mx-auto">
         <div class="container">
             <!-- Footer Address -->
             <div>
@@ -18,7 +18,7 @@
                             <i class="fa fa-map-marker"></i>
                             <h4 class="contact-title">Email Address</h4>
                             <p class="contact-desc">
-                                jaajaitsolutions@gmail.com<br>
+                                info@jaaja.com<br>
                             </p> 
                         </div>
                     </div>
