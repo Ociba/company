@@ -7,7 +7,7 @@
 			<div class="col-md-6">
 				<div class="rs-toolbar-left">
 					<div class="welcome-message">
-						<i class="fa fa-map-marker"></i><span>Portal Avenue, Plot No. 9, Behind King Ceasor Plaza, Opposite Christ The King Church</span> 
+						<i class="fa fa-map-marker"></i><span>King Ceasor Square, Plot 9,Portal Avenue Level One, Opposite Christ The King Church</span> 
 					</div>
 				</div>
 			</div>
@@ -99,7 +99,7 @@
 						<nav class="rs-menu">
 							<ul class="nav-menu">
 								<!-- Home -->
-								<li class="current-menu-item current_page_item menu-item-has-children"> <a href="#" class="home">Home</a>
+								<li class="current-menu-item current_page_item menu-item-has-children"> <a href="#" class="home" style="color:white;">Home</a>
 								
 								</li>
 								{{--

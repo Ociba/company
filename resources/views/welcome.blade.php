@@ -40,10 +40,9 @@
 	<!--Banner Section End-->
     <!--Languages start-->
     @include('frontlayouts.language')
-    {{--@include('frontlayouts.owl')--}}
     <!--End language-->	
 		<!-- Services Start -->
-    @include('frontlayouts.welcome')
+    @include('frontlayouts.about')
     <!-- Services Start -->
 
        <!-- Work so we have done -->
@@ -56,8 +55,6 @@
         <!--Team start-->
         @include('frontlayouts.team')
         <!--Team end-->
-        @include('frontlayouts.count')
-        <!-- Counter Down Section End -->
 
         <!-- ABOUT Section End -->
         @include('frontlayouts.our-say')
@@ -76,9 +73,6 @@
             <i class="fa fa-angle-up"></i>
         </div>
 		--}}
-		<!-- Canvas Menu start -->
-        @include('frontlayouts.canvas-menu')
-        <!-- Canvas Menu end -->
         
         <!-- Search Modal Start -->
         @include('frontlayouts.search')

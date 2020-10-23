@@ -1,9 +1,9 @@
-<footer id="rs-footer" class="bg3 rs-footer rs-footer-style8 blue-gradient color-block mb-3 mx-auto">
+<footer id="rs-footer" class="bg3 rs-footer rs-footer-style8 bg-gradient-primary">
         <div class="container">
             <!-- Footer Address -->
             <div>
                 <div class="row footer-contact-desc">
-                    <div class="col-md-4">
+                    <div class="col-md-6">
                         <div class="contact-inner">
                             <i class="fa fa-phone"></i>
                             <h4 class="contact-title">Phone Number</h4>
@@ -13,7 +13,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-6">
                         <div class="contact-inner">
                             <i class="fa fa-map-marker"></i>
                             <h4 class="contact-title">Email Address</h4>
@@ -22,6 +22,7 @@
                             </p> 
                         </div>
                     </div>
+                    {{--
                     <div class="col-md-4">
                         <div class="contact-inner">
                             <i class="fa fa-signal"></i>
@@ -35,6 +36,7 @@
                             </div> 
                         </div>
                     </div>
+                    --}}
                 </div>					
             </div>
         </div>

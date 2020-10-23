@@ -8,7 +8,7 @@
                             <h4 class="mb-0">Mr. Matama Johnson</h4>
                             <p>Chairman and Co-Founder</p>
                         </div>
-                        <p class="text-center font-weight-bold">“IF YOU DON’T DO IT HOW WILL IT HAPPEN’ </p>
+                        <p class="text-center font-weight-bold">“IF YOU DON’T DO IT HOW WILL IT HAPPEN” </p>
                         <p class="text-center">Quote by Jark Mark-Alibaba Group</p>
                     </div>
                     
@@ -37,10 +37,10 @@
                         <div class="col-sm-6">
                             <div class="course-author">
                               <div class="align-img">
-                              <div class="image-comments"><img src="images/blog-details/comment.png" alt="Blog Details photo"></div>
+                              <div class="image-comments"><img src="images/team/king.jpg" alt="Blog Details photo"></div>
                               </div>
                               <div class="author-content">
-                                  <h4 class="mb-0">HE. King Ceasor Augustus Mulenga </h4>
+                                  <h4 class="mb-0">HE. K.C Augustus Mulenga </h4>
                                   <p>Mentor</p>
                               </div>
                             </div>
@@ -48,7 +48,7 @@
                         <div class="col-sm-6">
                             <div class="course-author">
                               <div class="align-img">
-                              <div class="image-comments"><img src="images/blog-details/comment.png" alt="Blog Details photo"></div>
+                              <div class="image-comments"><img src="images/team/kaka1.PNG" alt="Blog Details photo"></div>
                               </div>
                               <div class="author-content">
                                   <h4 class="mb-0">Mr. Swaran Kaka Matama </h4>

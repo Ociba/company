@@ -62,7 +62,7 @@
                                                     <tr>
                                                         <td>{{$expenditures->item}}</td>
                                                         <td>{{$expenditures->quantity}}</td>
-                                                        <td>{{$expenditures->unit_price}}</td>
+                                                        <td>{{$expenditures->unit}}</td>
                                                         <td>{{$expenditures->amount}}</td>
                                                         <td>{{$expenditures->person}}</td>
                                                         <td>{{$expenditures->date}}</td>

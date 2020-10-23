@@ -4,9 +4,10 @@
                 <div class="gridFilter">
                     <h3 class="active" data-filter="*">Our Products</h3>
                 </div>
-				<div class="row grid">
+				<div class="row grid text-center">
 					<div class="col-lg-3 col-md-6 col-xs-6 grid-item filter1">
-		                <div class="team-item">
+		                {{--
+						<div class="team-item">
 		                    <div class="team-img">
 		                        <a href="#"><img src="{{asset('images/events/logo.png')}}" style="width:300px; height:170px;" alt="" /></a>
 		                        <div class="social-icon">
@@ -20,42 +21,49 @@
                                 <span class="designation">Monitoring System</span>
                                 <a href="http://saudi.goproug.com"><h3 class="name">www.monitoring.com</h3></a>
 		                    </div>
-		                </div>						
+		                </div>
+						--}}						
 					</div>
+					
 					<div class="col-lg-3 col-md-6 col-xs-6 grid-item filter2">
 		                <div class="team-item">
 		                    <div class="team-img">
-		                        <a href="#"><img src="{{asset('images/apps/P2.JPG')}}" alt="" /></a>
+		                        <a href="#"><img src="{{asset('images/events/logo.png')}}" style="width:300px; height:170px;" alt="" /></a>
 		                        <div class="social-icon">
-		                        	<a href="#"><i class="fa fa-facebook"></i></a>
+		                        	{{--
+									<a href="#"><i class="fa fa-facebook"></i></a>
 		                        	<a href="#"><i class="fa fa-twitter"></i></a>
 		                        	<a href="#"><i class="fa fa-google-plus"></i></a>
 		                        	<a href="#"><i class="fa fa-linkedin"></i></a>
+									--}}
 		                        </div>
 		                    </div>
-		                    <div class="team-body">
-                                <span class="designation">Bulk SMS Sysytem</span>
-                                <a href="#"><h3 class="name">www.bulksms.com</h3></a>
+							<div class="team-body">
+                                <span class="designation">Monitoring System</span>
+                                <a href="http://saudi.goproug.com"><h3 class="name">www.monitoring.com</h3></a>
 		                    </div>
 		                </div>						
 					</div>
 					<div class="col-lg-3 col-md-6 col-xs-6 grid-item filter3">
 		                <div class="team-item">
 		                    <div class="team-img">
-		                        <a href="#"><img src="{{asset('images/apps/P3.JPG')}}" alt="" /></a>
+		                        <a href="#"><img src="{{asset('images/events/logo.png')}}" style="width:300px; height:170px;" alt="" /></a>
 		                        <div class="social-icon">
-		                        	<a href="#"><i class="fa fa-facebook"></i></a>
+		                        	{{--
+									<a href="#"><i class="fa fa-facebook"></i></a>
 		                        	<a href="#"><i class="fa fa-twitter"></i></a>
 		                        	<a href="#"><i class="fa fa-google-plus"></i></a>
 		                        	<a href="#"><i class="fa fa-linkedin"></i></a>
+									--}}
 		                        </div>
 		                    </div>
 		                    <div class="team-body">
-                                <span class="designation">School System</span>
-                                <a href="#"><h3 class="name">www.school.com</h3></a>
+                                <span class="designation">JAAJA Mobile App</span>
+                                <a href="#"><h3 class="name">jaaja</h3></a>
 		                    </div>
 		                </div>						
 					</div>
+					{{--
 					<div class="col-lg-3 col-md-6 col-xs-6 grid-item filter4">
 		                <div class="team-item">
 		                    <div class="team-img">
@@ -73,6 +81,7 @@
 		                    </div>
 		                </div>						
 					</div>
+					--}}
                     {{--
                         <div class="col-lg-3 col-md-6 col-xs-6 grid-item filter1">
 		                <div class="team-item">

@@ -577,7 +577,7 @@ ul {
   background-position: center top;
 }
 .bg3 {
-  background-image: url(../images/about/group.JPG);
+  background-image: url(../images/bg/counter-bg.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-position: center top;
@@ -1188,7 +1188,7 @@ ul {
 .rs-header-2 .menu-area .rs-menu li a:hover,
 .rs-header-3 .menu-area .rs-menu li a:hover,
 .rs-header-4 .menu-area .rs-menu li a:hover {
-  color: blue !important;
+  color: white !important;
 }
 .rs-header-2 {
   position: absolute;
@@ -1544,7 +1544,7 @@ ul {
   height: 80px;
 }
 .home3 .rs-header .menu-sticky.sticky .rs-menu .nav-menu > li > a:hover {
-  color: blue;
+  color: white;
 }
 .home3 .rs-header .menu-sticky.sticky .searce-box {
   top: 26px;
@@ -1559,7 +1559,7 @@ ul {
   top: 38px;
 }
 .home3 .rs-header .searce-box a.rs-search i {
-  color: blue;
+  color: white;
 }
 .home3 .rs-header .rs-menu ul {
   text-align: right;
@@ -1597,7 +1597,7 @@ ul {
 .home3 .rs-toolbar .rs-toolbar-left .welcome-message a:hover,
 .home5 .rs-toolbar .rs-toolbar-left .welcome-message a:hover,
 .instructor-home .rs-toolbar .rs-toolbar-left .welcome-message a:hover {
-  color: blue;
+  color: white;
 }
 .home5 .rs-toolbar {
   background: #00bcd4;
@@ -4454,13 +4454,14 @@ ul {
   font-weight: 700;
   line-height: 40px;
   color: #212121;
-  margin: 0;
+  margin-top: 140px;
 }
 .rs-our-best .rs-calltoaction .desc {
-  font-size: 15px;
+  font-size: 20px;
   line-height: 27px;
   color: #505050;
-  margin: 0;
+  margin-top: 150px;
+  
 }
 /* ------------------------------------
     11. Rs-counter
@@ -5426,7 +5427,7 @@ ul {
   padding-top: 93px;
 }
 .rs-team-2 .row.grid {
-  min-height: 400px !important;
+  min-height: 70px !important;
   overflow: hidden;
 }
 .team-all .row {
@@ -8589,6 +8590,7 @@ ul {
   font-size: 15px;
 }
 .rs-footer.rs-footer-style8 .footer-top .recent-post-widget .post-item {
+  margin-top: 105px;
   padding-bottom: 15px;
   padding-top: 15px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.15);

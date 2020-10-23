@@ -28,8 +28,8 @@ class ExpenditureController extends Controller
      * This function saves expenditure to database
     */
     private function createExpenditure(){
-        $quantity =Expenditure::request()->quantity;
-        $rate =Expenditure::request()->rate;
+        $quantity =request()->quantity;
+        $rate = request()->rate;
         $amount =$quantity * $rate;
         $expenditure =new Expenditure;
         $expenditure->item     =request()->item;
@@ -57,8 +57,6 @@ class ExpenditureController extends Controller
             return redirect()->back()->withErrors('Quantity is required, please fill it to continue');
         }elseif(empty(request()->unit)){
             return redirect()->back()->withErrors('Unit is required, please fill it to continue');
-        }elseif(empty(request()->amount)){
-            return redirect()->back()->withErrors('Amount is required, please fill it to continue');
         }elseif(empty(request()->person)){
             return redirect()->back()->withErrors('Person is required, please fill it to continue');
         }elseif(empty(request()->date)){
