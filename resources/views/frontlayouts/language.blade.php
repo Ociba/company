@@ -19,7 +19,7 @@
           <div class="footer-copyright text-center py-3">
           <ul class="list-unstyled list-inline text-center py-2">
              <li class="list-inline-item" style="color:red;"> PHP-Laravel Framework |</li>
-             <li class="list-inline-item" style="color:DarkTurquoise;"> React-React Native |</li>
+             <li class="list-inline-item" style="color:DarkTurquoise;"> Javascipt-React & React Native |</li>
             <li class="list-inline-item" style="color:DarkBlue"> Python-Django |</li>
             </ul>
           </div>

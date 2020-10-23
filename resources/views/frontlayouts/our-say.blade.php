@@ -1,22 +1,13 @@
 <style>
-#show_bg_2 {
-    background-image:
-    linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('images/about/group.JPG');
-    width: 100%;
-    height: 700px;
-    background-size: cover;
-    color: white;
-    margin-top: 0px;
-}
+
 </style>
-<div id='show_bg_2' class="rs-our-best md-gray-bg-color pb-70">
+<div id='show_bg_2' class="bg16 rs-our-best md-gray-bg-color pb-70">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                 
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                 <div class="rs-calltoaction">
                         <h2 class="title text-white">We are ready to respond to 
                         Online Questions</h2>

@@ -46,7 +46,7 @@
     <!-- Services Start -->
 
        <!-- Work so we have done -->
-       @include('frontlayouts.our-work')
+       @include('frontlayouts.gallery')
        <!-- Work so we have done end -->
 
         <!-- product Start -->
