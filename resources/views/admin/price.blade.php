@@ -74,35 +74,34 @@
                                                         <td>300,000</td>
                                                         <td class="font-weight-bold">300,000</td>
                                                     </tr>
-                                                    <th class="btn bg-success"></th>
                                                     <tr>
                                                         <td>2</td>
                                                         <td>Web Applications</td>
                                                         <td>Labour(without Logo)</td>
-                                                        <td>500,000</td>
-                                                        <td class="font-weight-bold">500,000</td>
+                                                        <td>Not Decided</td>
+                                                        <td class="font-weight-bold">Not Decided</td>
                                                     </tr>
                                                     <tr>
                                                         <td></td>
                                                         <td></td>
                                                         <td>Logo(optional)</td>
-                                                        <td>300,000</td>
-                                                        <td class="font-weight-bold">300,000</td>
+                                                        <td>Not Decided</td>
+                                                        <td class="font-weight-bold">Not Decided</td>
                                                     </tr>
                                                     <tr>
                                                         <td>3</td>
                                                         <td>Mobile Applications</td>
                                                         <td>Labour(without Logo)</td>
-                                                        <td>500,000</td>
-                                                        <td class="font-weight-bold">500,000</td>
+                                                        <td>Not Decided</td>
+                                                        <td class="font-weight-bold">Not Decided</td>
                                                     </tr>
                                                     
                                                     <tr>
                                                         <td></td>
                                                         <td></td>
                                                         <td>Logo(optional)</td>
-                                                        <td>300,000</td>
-                                                        <td class="font-weight-bold">300,000</td>
+                                                        <td>Not Decided</td>
+                                                        <td class="font-weight-bold">Not Decided</td>
                                                     </tr>
                                                 </tbody>
                                             </table>

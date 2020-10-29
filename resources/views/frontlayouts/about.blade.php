@@ -1,4 +1,4 @@
-<div class="rs-about-style8 pt-100 pb-100">
+<div class="rs-about-style8 pt-100 pb-0">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 pt-40">
@@ -9,7 +9,7 @@
                             <p>Chairman and Co-Founder</p>
                         </div>
                         <p class="text-center font-weight-bold">“IF YOU DON’T DO IT HOW WILL IT HAPPEN” </p>
-                        <p class="text-center">Quote by Jark Mark-Alibaba Group</p>
+                        <p class="text-center">Quote by Jack Ma -Alibaba Group</p>
                     </div>
                     
                 </div>

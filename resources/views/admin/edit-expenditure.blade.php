@@ -31,6 +31,7 @@
 				<div class="main-body">
 					<div class="page-wrapper">
 						@include('layouts.breadcrumb')
+                        @include('layouts.message')
 						<!-- [ Main Content ] start -->
 						<div class="row">
 							<!-- Zero config table start -->
@@ -59,7 +60,25 @@
                                             <div class="col-md-6">
                                             <div class="form-group">
                                                 <label for="exampleInputEmail1">Unit Price</label>
-                                                <input type="text" class="form-control" name="unit_price" value="{{$expenditure->unit_price}}" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter price" required>
+                                                <input type="text" class="form-control" name="unit" value="{{$expenditure->unit}}" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter price" required>
+                                            </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="exampleInputEmail1">Particular</label>
+                                                <input type="text" class="form-control" name="particulars" value="{{$expenditure->particulars}}" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter price" required>
+                                            </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="exampleInputEmail1">Rate</label>
+                                                <input type="text" class="form-control" name="rate" value="{{$expenditure->rate}}" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter price" required>
+                                            </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="exampleInputEmail1">Unit Price</label>
+                                                <input type="text" class="form-control" name="unit" value="{{$expenditure->unit}}" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter price" required>
                                             </div>
                                             </div>
                                             <div class="col-md-6">
@@ -74,12 +93,6 @@
                                                 <input type="text" class="form-control" name="person" value="{{$expenditure->person}}" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Persons Name" required>
                                             </div>
                                             </div>
-                                            <div class="col-md-6">
-                                            <div class="form-group">
-                                                <label for="exampleInputEmail1">Date</label>
-                                                <input type="text" class="form-control" name="date" value="{{$expenditure->date}}" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Deposit" required>
-                                            </div>
-                                            </div>  
                                             <div class="col-md-12 text-center">      
                                             <button type="submit" class="btn waves-effect waves-light btn-primary">Submit</button>
                                             

@@ -3,21 +3,15 @@ $(document).ready(function() {
     // [ bar-chart ] start
     var bar = document.getElementById("chart-bar-1").getContext('2d');
     var data1 = {
-        labels: [0, 1, 2, 3],
+        labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
         datasets: [{
             label: "Data 1",
-            data: [25, 45, 74, 85],
+            data: [25000, 45000, 74000, 85000, 50000, 100000, 20000, 67000, 55000, 15000, 78000, 34000],
             borderColor: '#4680ff',
-            backgroundColor: '#4680ff',
+            backgroundColor: ['#4680ff','#B0BF1A','#B284BE','#C46210','#FF7E00','#008000','#DA1884','#3D2B1F',
+                              '#FE6F5E','#FD3F92','#9EFD38','#014421'],
             hoverborderColor:'#4680ff',
             hoverBackgroundColor: '#4680ff',
-        }, {
-            label: "Data 2",
-            data: [30, 52, 65, 65],
-            borderColor: '#7759de',
-            backgroundColor: '#7759de',
-            hoverborderColor:'#7759de',
-            hoverBackgroundColor: '#7759de',
         }]
     };
     var myBarChart = new Chart(bar, {

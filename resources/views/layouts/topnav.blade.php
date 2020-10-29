@@ -3,12 +3,8 @@
 			<div class="m-header">
 				<a class="mobile-menu" id="mobile-collapse1" href="#!"><span></span></a>
 				<a href="index.html" class="b-brand">
-					<!-- <div class="b-bg">
-						E
-					</div>
-					<span class="b-title">Flex Able</span> -->
-					<img src="../assets/images/logo.png" alt="" class="logo images">
-					<img src="../assets/images/logo-icon.png" alt="" class="logo-thumb images">
+					<img src="../assets/images/events/logoo.png" alt="" class="logo images">
+					<img src="../assets/images/events/logoo.png" alt="" class="logo-thumb images">
 				</a>
 			</div>
 			<a class="mobile-menu waves-effect waves-light" id="mobile-header" href="#!">
@@ -18,6 +14,7 @@
 				<a href="#!" class="mob-toggler"></a>
 				<ul class="navbar-nav mr-auto">
 					<li class="nav-item">
+						{{--
 						<div class="main-search">
 							<div class="input-group">
 								<input type="text" id="m-search" class="form-control" placeholder="Search . . .">
@@ -29,8 +26,10 @@
 								</span>
 							</div>
 						</div>
+						--}}
 					</li>
 				</ul>
+				{{--
 				<ul class="navbar-nav ml-auto">
 					<li>
 						<div class="dropdown">
@@ -135,10 +134,11 @@
 						</div>
 					</li>
 				</ul>
+				--}}
 			</div>
 			
     </header>
-    
+    {{--
 	<!-- [ chat user list ] start -->
 	<section class="header-user-list">
 		<a href="#!" class="h-close-text"><i class="feather icon-x"></i></a>
@@ -437,3 +437,4 @@
 		</div>
 	</section>
 	<!-- [ chat message ] end -->
+	--}}

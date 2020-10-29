@@ -41,7 +41,9 @@
                                         <h5>
                                         <a href="/make-payments" button class="btn btn-primary mr-0">Add Payments</button></a>
                                         </h5>
-                                        <span class="font-weight-bold">This is the current total Amount ={{$total_amount}}</span>
+                                        @if(auth()->user()->role_id == 1)
+                                        <span class="font-weight-bold">This is the current total Amount ={{number_format($total_amount)}}</span>
+                                        @endif
                                     </div>
                                     <div class="card-body">
                                         <div class="dt-responsive table-responsive">
@@ -69,9 +71,9 @@
                                                         <td>{{$payments->time_frame}}</td>
                                                         <td>{{$payments->incharge}}</td>
                                                         <td>
-                                                        <a href="/edit-payment/{{$payments->id}}" button class="btn btn-success">Edit</button></a>
-                                                        <a href="/get-payment-information/{{$payments->id}}" button class="btn btn-primary">view more</button></a>
-                                                        <a href="/delete-payment/{{$payments->id}}" button class="btn btn-danger">Delete</button></a>
+                                                        <a href="/edit-payment/{{$payments->id}}" button class="btn btn-success btn-sm">Edit</button></a>
+                                                        <a href="/get-payment-information/{{$payments->id}}" button class="btn btn-primary btn-sm">view</button></a>
+                                                        <a href="/delete-payment/{{$payments->id}}" button class="btn btn-danger btn-sm">Delete</button></a>
                                                         </td>
                                                     </tr>
                                                     @endforeach

@@ -13,3 +13,6 @@
 <!-- dashboard-custom js -->
 <script src="{{asset('assets/js/pages/dashboard-analytics.js')}}"></script>
 <script src="{{asset('assets/plugins/fileupload/js/dropzone-amd-module.min.js')}}"></script>
+<!-- chartjs js -->
+<script src="{{asset('assets/plugins/chart-chartjs/js/Chart.min.js')}}"></script>
+<script src="{{asset('assets/js/pages/chart-chart-custom.js')}}"></script>

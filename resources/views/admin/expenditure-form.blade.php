@@ -31,6 +31,7 @@
 				<div class="main-body">
 					<div class="page-wrapper">
 						@include('layouts.breadcrumb')
+                        @include('layouts.message')
 						<!-- [ Main Content ] start -->
 						<div class="row">
                         @include('layouts.message')

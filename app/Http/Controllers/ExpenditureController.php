@@ -12,11 +12,16 @@ class ExpenditureController extends Controller
      * This function fetches the view for Expenditure
     */
     protected function getExpenditure(){
-        $expenditure =Expenditure::get();
+        $expenditure =Expenditure::where('expenditures.status','paid')
+        ->orwhere('expenditures.status','pending')->get();
         $total_amount =Payment::get()->sum('paid');
         $total_expenditure =Expenditure::get()->sum('amount');
         $current_balance =$total_amount-$total_expenditure;
+        if(auth()->user()->role_id ==1){
         return view('admin.expenditure', compact('expenditure','current_balance','total_expenditure'));
+        }else{
+            return redirect('/404');
+        }
     }
     /*** 
      * This function displays a form for expenditure
@@ -70,7 +75,7 @@ class ExpenditureController extends Controller
     */
     protected function expenditureDetails($id){
         $get_expenditure =Expenditure:://join('users','payments.user_id','users.id')
-            get();
+        where('id', $id)->get();
             return view('admin.expenditure-details', compact('get_expenditure'));
     }
     /** 
@@ -92,8 +97,6 @@ class ExpenditureController extends Controller
             'unit' =>request()->unit,
             'amount' =>request()->amount,
             'person' =>request()->person,
-            'date'   =>request()->date,
-            'sign'   =>request()->sign 
        ));
        return redirect()->back()->with('message','You have successfully edited Expenditure');
     }

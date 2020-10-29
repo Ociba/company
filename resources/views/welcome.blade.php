@@ -36,7 +36,7 @@
    </div>
    <!--Full width header End-->
 
-	@include('frontlayouts.form')
+	@include('frontlayouts.header')
 	<!--Banner Section End-->
     <!--Languages start-->
     @include('frontlayouts.language')
@@ -46,9 +46,9 @@
     <!-- Services Start -->
 
        <!-- Work so we have done -->
-       @include('frontlayouts.gallery')
+       {{--@include('frontlayouts.gallery')--}}
        <!-- Work so we have done end -->
-
+       @include('frontlayouts.gallery1')
         <!-- product Start -->
         @include('frontlayouts.product')
         <!-- product End -->
@@ -57,9 +57,8 @@
         <!--Team end-->
 
         <!-- ABOUT Section End -->
-        @include('frontlayouts.our-say')
+        @include('frontlayouts.chat')
         <!-- ABOUT Section End -->
-        
         <!-- Partner Start -->
         @include('frontlayouts.partner')
         <!-- Partner End -->

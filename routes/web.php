@@ -14,8 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/','FrontPagesController@homepage');
+Route::group(['middleware' => ['auth']], function () {
 Route::get('/apply-now','ApplicationController@getApplicationForm');
-Route::get('/jajacompany-dashboard', function () { return view('admin.template');})->name('Dashboard');
+Route::get('/jajacompany-dashboard','DashboardController@getDashboard')->name('Dashboard');
 Route::get('/create-application','ApplicationController@validateApplication');
 Route::get('/unread-application','ApplicationController@getApplicationNotRead')->name('Unread Applications');
 Route::get('/change-not-read-to-read/{id}','ApplicationController@updateStatusToRead');
@@ -42,7 +43,7 @@ Route::get('/reply/{id}','CommentController@replyForm')->name('Reply Comment');
 Route::get('/reply-comment/{id}','CommentController@replyComment');
 Route::get('/approve/{id}','CommentController@deleteComment');
 Route::get('/edit-payment/{id}','PaymentController@editPayment')->name('Edit Payment');
-Route::get('/get-invoice','PaymentController@getPayment')->name('Payment');
+Route::get('/get-payment','PaymentController@getPayment')->name('Payment');
 Route::get('/get-payment-information/{id}','PaymentController@paymentDetails')->name('Payment Details');
 Route::get('/make-payments','PaymentController@getPaymentForm')->name('Payment Form');
 Route::get('/pay','PaymentController@validatePayment');
@@ -56,3 +57,9 @@ Route::get('/edit-expenditure-form/{id}','ExpenditureController@editExpenditure'
 Route::get('/update-expenditure/{id}','ExpenditureController@updatePayment');
 Route::get('/delete-expenditure/{id}','ExpenditureController@deleteExpenditure');
 Route::get('/get-expenditure','ExpenditureController@getExpenditure')->name('Expenditure');
+Route::get('/register-user','HomeController@registerUser')->name('Register');
+Route::get('/logout','HomeController@logout');
+});
+Auth::routes();
+
+//Route::get('/home', 'HomeController@index')->name('home');

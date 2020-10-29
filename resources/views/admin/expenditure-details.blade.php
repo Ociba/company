@@ -90,7 +90,7 @@
                                                                                     <div class="media">
                                                                                         <div class="mr-3">
                                                                                             <div>
-                                                                                                <h6 class="font-weight-semibold">Unit Price: {{$expenditure->unit_price}}</h6>
+                                                                                                <h6 class="font-weight-semibold">Unit Price: {{$expenditure->unit}}</h6>
                                                                                                 <ul class="list list-unstyled mb-3">
                                                                                                     <li><span class="font-weight-semibold">Date: </span>{{$expenditure->date}}</li>
                                                                                                 </ul>
@@ -138,11 +138,13 @@
                                                 </div>
                                             </div>
                                         </div>
+                                        {{--
                                         <div class="row text-center">
                                             <div class="col-sm-12 invoice-btn-group text-center">
                                                 <button type="button" class="btn waves-effect waves-light btn-primary btn-print-invoice m-b-10">Print</button>
                                             </div>
                                         </div>
+                                        --}}
                                     </div>
                                 </div>
                                 <!-- [ Invoice ] end -->

@@ -1,6 +1,6 @@
 <!-- favicon -->
-<link rel="apple-touch-icon" href="apple-touch-icon.html">
-        <link rel="shortcut icon" type="image/x-icon" href="images/fav.png">
+        <link rel="apple-touch-icon" href="apple-touch-icon.html">
+        <link rel="shortcut icon" type="image/x-icon" href="images/events/logoo.png">
         <!-- bootstrap v4 css -->
         <link rel="stylesheet" type="text/css" href="{{asset('css/bootstrap.min.css')}}">
         <!-- font-awesome css -->
@@ -30,5 +30,6 @@
         <!-- responsive css -->
         <link rel="stylesheet" type="text/css" href="{{asset('css/responsive.css')}}">
         <link rel="stylesheet" type="text/css" href="{{asset('css/slider.css')}}">
+        
 
         

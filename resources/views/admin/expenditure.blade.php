@@ -41,7 +41,9 @@
                                         <h5>
                                         <a href="/get-expenditure-form" button class="btn btn-primary mr-0">Add expenditures</button></a>
                                         </h5>
+                                        @if(auth()->user()->role_id == 1)
                                         <span class="font-weight-bold">Expenditure ={{ number_format($total_expenditure)}} |Account Balance ={{ number_format($current_balance)}}</span>
+                                        @endif
                                     </div>
                                     <div class="card-body">
                                         <div class="dt-responsive table-responsive">

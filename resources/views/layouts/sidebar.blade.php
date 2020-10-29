@@ -2,13 +2,9 @@
 <nav class="pcoded-navbar menupos-fixed menu-light brand-blue menu-item-icon-style6 title-blue ">
 		<div class="navbar-wrapper ">
 			<div class="navbar-brand header-logo">
-				<a href="index.html" class="b-brand">
-					<!-- <div class="b-bg">
-						E
-					</div>
-					<span class="b-title">Flex Able</span> -->
-					<img src="../assets/images/logo.png" alt="" class="logo images">
-					<img src="../assets/images/logo-icon.png" alt="" class="logo-thumb images">
+				<a href="#" class="b-brand text-white">
+					<img src="{{asset('images/events/logoo.png')}}" style="border-radius:50%; width:50px; width:50px;" alt="" class="logo images">
+					<img src="{{asset('images/events/logoo.png')}}" alt="" class="logo-thumb images">
 				</a>
 				<a class="mobile-menu waves-effect waves-light" id="mobile-collapse" href="#!"><span></span></a>
 			</div>
@@ -21,9 +17,10 @@
 						<label>Navigation</label>
 					</li>
 					<li class="nav-item">
-						<a href="/company-dashboard" class="nav-link waves-effect waves-light"><span class="pcoded-micon"><i class="feather icon-home"></i></span><span class="pcoded-mtext">Dashboard</span></a>
+						<a href="/jajacompany-dashboard" class="nav-link waves-effect waves-light"><span class="pcoded-micon"><i class="feather icon-home"></i></span><span class="pcoded-mtext">Dashboard</span></a>
 					</li>
-                    <li class="nav-item pcoded-menu-caption">
+                    {{--
+					<li class="nav-item pcoded-menu-caption">
 						<label>Application</label>
 					</li>
 					<li class="nav-item">
@@ -62,23 +59,34 @@
 						<a href="/display-events-in-dashboard" class="nav-link waves-effect waves-light"><span class="pcoded-micon"><i class="feather icon-pie-chart"></i></span><span class="pcoded-mtext">View Events</span></a>
 						
 					</li>
-
+                    --}}
 					<li class="nav-item pcoded-menu-caption">
 						<label>Payments</label>
 					</li>
 					<li class="nav-item">
-						<a href="/get-invoice" class="nav-link waves-effect waves-light"><span class="pcoded-micon"><i class="feather icon-align-justify"></i></span><span class="pcoded-mtext">Payment</span></a>
+						<a href="/get-payment" class="nav-link waves-effect waves-light"><span class="pcoded-micon"><i class="feather icon-briefcase"></i></span><span class="pcoded-mtext">Payment</span></a>
 						
 					</li>
 					<li class="nav-item">
-						<a href="/get-expenditure" class="nav-link waves-effect waves-light"><span class="pcoded-micon"><i class="feather icon-align-justify"></i></span><span class="pcoded-mtext">Expenditure</span></a>
+						<a href="/get-expenditure" class="nav-link waves-effect waves-light"><span class="pcoded-micon"><i class="feather icon-shopping-cart"></i></span><span class="pcoded-mtext">Expenditure</span></a>
 						
 					</li>
 					<li class="nav-item">
-						<a href="/get-pricing" class="nav-link waves-effect waves-light"><span class="pcoded-micon"><i class="feather icon-align-justify"></i></span><span class="pcoded-mtext">Pricing</span></a>
+						<a href="/get-pricing" class="nav-link waves-effect waves-light"><span class="pcoded-micon"><i class="feather icon-package"></i></span><span class="pcoded-mtext">Pricing</span></a>
 						
 					</li>
-
+					<li class="nav-item pcoded-menu-caption">
+						<label>Authentication</label>
+					</li>
+                    <li class="nav-item">
+						<a href="/register-user" class="nav-link waves-effect waves-light"><span class="pcoded-micon"><i class="feather icon-user"></i></span><span class="pcoded-mtext">Register</span></a>
+						
+					</li>
+					<li class="nav-item">
+						<a href="/logout" class="nav-link waves-effect waves-light">
+							<span class="pcoded-micon"><i class="feather icon-lock"></i></span><span class="pcoded-mtext">Logout</span></a>
+					</li>
+                    </li>
 					<li class="nav-item pcoded-menu-caption">
 						<label>Support</label>
 					</li>

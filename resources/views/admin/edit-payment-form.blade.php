@@ -31,6 +31,7 @@
 				<div class="main-body">
 					<div class="page-wrapper">
 						@include('layouts.breadcrumb')
+                        @include('layouts.message')
 						<!-- [ Main Content ] start -->
 						<div class="row">
 							<!-- Zero config table start -->
@@ -65,7 +66,7 @@
                                             <div class="col-md-6">
                                             <div class="form-group">
                                                 <label for="exampleInputEmail1">Item</label>
-                                                <input type="text" class="form-control" name="item" value="{{$payment->item}}" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Item" required>
+                                                <input type="text" class="form-control" name="item_id" value="{{$payment->item_id}}" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Item" required>
                                             </div>
                                             </div>
                                             <div class="col-md-6">
@@ -107,7 +108,7 @@
                                             <div class="col-md-12 text-center">      
                                             <button type="submit" class="btn waves-effect waves-light btn-primary">Submit</button>
                                             
-                                            <a href="/get-invoice" button class="btn waves-effect waves-light btn-warning">Back</button></a>
+                                            <a href="/get-payment" button class="btn waves-effect waves-light btn-warning">Back</button></a>
                                             </div>
                                             </div>
                                     </form>
