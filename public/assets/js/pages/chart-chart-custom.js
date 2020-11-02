@@ -5,7 +5,7 @@ $(document).ready(function() {
     var data1 = {
         labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
         datasets: [{
-            label: "Data 1",
+            label: "Total",
             data: [25000, 45000, 74000, 85000, 50000, 100000, 20000, 67000, 55000, 15000, 78000, 34000],
             borderColor: '#4680ff',
             backgroundColor: ['#4680ff','#B0BF1A','#B284BE','#C46210','#FF7E00','#008000','#DA1884','#3D2B1F',
